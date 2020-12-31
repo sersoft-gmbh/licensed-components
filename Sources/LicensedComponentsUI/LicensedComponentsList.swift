@@ -39,6 +39,8 @@ public struct LicensedComponentsList: View {
                 if expandedComponents.contains(component) {
                     ComponentInlineDetails(component: component)
                         .listRowBackground(Color.gray.opacity(0.35))
+                        .transition(.opacity)
+                        .animation(.default)
                 }
                 #endif
             }
@@ -91,13 +93,30 @@ struct LicensedComponentsList_Previews: PreviewProvider {
             LicensedComponentsList(components: [
                 LicensedComponent(
                     name: "Test Component",
-                    license: .mit,
+                    license: .custom(
+                        title: "Test License",
+                        .init(
+                            short: .init(String(repeating: "Only short\n",
+                                                count: 12),
+                                         hasPlaceholders: false)
+                        )
+                    ),
                     copyrightYears: "2020-2021",
                     copyrightHolders: "This guy"
                 ),
                 LicensedComponent(
                     name: "Something else",
-                    license: .apache(.v2),
+                    license: .custom(
+                        title: "Test License",
+                        .init(
+                            short: .init(String(repeating: "Also long short\n",
+                                                count: 12),
+                                         hasPlaceholders: false),
+                            full: .init(String(repeating: "A very long license text\n",
+                                               count: 40),
+                                        hasPlaceholders: false)
+                        )
+                    ),
                     copyrightYears: "2020",
                     copyrightHolders: "Another guy"
                 ),
