@@ -4,5 +4,7 @@ coverage:
   precision: 2
 
 ignore:
-  - "Sources/LicensedComponentsUI"
+  - ".build"
+  - ".swiftpm"
   - "Tests"
+  - "Sources/LicensedComponentsUI"
