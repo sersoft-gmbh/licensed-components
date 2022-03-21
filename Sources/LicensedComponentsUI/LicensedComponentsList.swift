@@ -7,34 +7,34 @@ public struct LicensedComponentsList: View {
     /// The components shown in this view.
     public let components: [LicensedComponent]
 
-    #if !os(macOS)
+#if !os(macOS)
     @State
-    private var expandedComponents: Set<LicensedComponent> = []
-    #endif
+    private var expandedComponents = Set<LicensedComponent>()
+#endif
 
     /// See `View.body`
     public var body: some View {
         List {
             ForEach(components) { component in
-                #if os(macOS)
+#if os(macOS)
                 NavigationLink(
                     destination: ComponentDetailsView(component: component),
                     label: { ComponentLabel(component: component) }
                 )
-                #else
+#else
                 HStack {
                     ComponentLabel(component: component)
                     Spacer()
                     Button(action: { toggleComponentDetails(for: component) },
                            label: {
-                            Image(systemName: "chevron.right")
-                                .accentColor(.label)
-                                .rotationEffect(
-                                    expandedComponents.contains(component)
-                                        ? .init(degrees: 90)
-                                        : .zero
-                                )
-                           })
+                        Image(systemName: "chevron.right")
+                            .accentColor(.label)
+                            .rotationEffect(
+                                expandedComponents.contains(component)
+                                ? .init(degrees: 90)
+                                : .zero
+                            )
+                    })
                 }
                 if expandedComponents.contains(component) {
                     ComponentInlineDetails(component: component)
@@ -42,7 +42,7 @@ public struct LicensedComponentsList: View {
                         .transition(.opacity)
                         .animation(.default)
                 }
-                #endif
+#endif
             }
         }.groupedListStyle
     }
@@ -53,7 +53,7 @@ public struct LicensedComponentsList: View {
         self.components = components
     }
 
-    #if !os(macOS)
+#if !os(macOS)
     private func toggleComponentDetails(for component: LicensedComponent) {
         withAnimation {
             if expandedComponents.contains(component) {
@@ -63,27 +63,29 @@ public struct LicensedComponentsList: View {
             }
         }
     }
-    #endif
+#endif
 }
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 fileprivate extension Color {
     static var label: Color {
-        #if os(macOS)
+#if os(macOS)
         return Color(.labelColor)
-        #else
+#else
         return Color(.label)
-        #endif
+#endif
     }
 }
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 fileprivate extension View {
-    #if os(macOS)
-    var groupedListStyle: some View { self }
-    #else
-    var groupedListStyle: some View { listStyle(GroupedListStyle()) }
-    #endif
+    var groupedListStyle: some View {
+#if os(macOS)
+        self
+#else
+        listStyle(GroupedListStyle())
+#endif
+    }
 }
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
