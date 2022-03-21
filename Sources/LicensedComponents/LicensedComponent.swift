@@ -177,7 +177,7 @@ extension LicensedComponent {
     public enum License: Hashable {
         /// The Apache license versions.
         public enum Apache: Hashable {
-            /// Version 2.0 of the GPL license.
+            /// Version 2.0 of the Apache license.
             case v2
         }
 
