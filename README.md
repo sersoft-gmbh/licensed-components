@@ -4,7 +4,7 @@
 ![Tests](https://github.com/sersoft-gmbh/licensed-components/workflows/Tests/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/52b18112086f404a9f970b8b7a7c4529)](https://www.codacy.com/gh/sersoft-gmbh/licensed-components/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sersoft-gmbh/licensed-components&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/sersoft-gmbh/licensed-components/branch/main/graph/badge.svg?token=SYWM5R6N7G)](https://codecov.io/gh/sersoft-gmbh/licensed-components)
-[![jazzy](https://raw.githubusercontent.com/sersoft-gmbh/licensed-components/gh-pages/badge.svg?sanitize=true)](https://sersoft-gmbh.github.io/licensed-components)
+[![Docs](https://img.shields.io/badge/-documentation-informational)](https://sersoft-gmbh.github.io/licensed-components)
 
 A simple package containing models and UI for listing open source components.
 
@@ -67,7 +67,10 @@ While not yet integrated, the following features might provide added value and c
 
 ## Documentation
 
-The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an [online version](https://sersoft-gmbh.github.io/licensed-components) available for you.
+The API is documented using header doc. If you prefer to view the documentation as a webpage, there is an online version available for you:
+
+-   [LicensedComponents](https://sersoft-gmbh.github.io/licensed-components/main/documentation/licensedcomponents)
+-   [LicensedComponentsUI](https://sersoft-gmbh.github.io/licensed-components/main/documentation/licensedcomponentsui)
 
 ## Contributing
 

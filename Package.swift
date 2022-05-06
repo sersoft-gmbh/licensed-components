@@ -37,3 +37,7 @@ let package = Package(
             dependencies: ["LicensedComponents"]),
     ]
 )
+
+if ProcessInfo.processInfo.environment["ENABLE_DOCC_SUPPORT"] == "1" {
+    package.dependencies.append(.package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"))
+}
