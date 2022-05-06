@@ -5,7 +5,7 @@ import LicensedComponents
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 public struct LicensedComponentsList: View {
     /// The components shown in this view.
-    public let components: [LicensedComponent]
+    public let components: Array<LicensedComponent>
 
 #if !os(macOS)
     @State
@@ -49,7 +49,7 @@ public struct LicensedComponentsList: View {
 
     /// Creates a new list using the given components.
     /// - Parameter components: The components to show.
-    public init(components: [LicensedComponent]) {
+    public init(components: Array<LicensedComponent>) {
         self.components = components
     }
 

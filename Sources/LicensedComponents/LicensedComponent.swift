@@ -38,7 +38,7 @@ public struct LicensedComponent: Hashable, Identifiable {
     public var name: String { _storage.details.licensedProduct }
 
     /// The license of the component.
-    /// - SeeAlso: `LicensedComponent.License`
+    /// - SeeAlso: ``LicensedComponent/License``
     @inlinable
     public var license: License { _storage.license }
 
@@ -77,13 +77,13 @@ public struct LicensedComponent: Hashable, Identifiable {
                                         holders: copyrightHolders))
     }
 
-    /// See `Hashable.hash(into:)`
+    /// See ``Swift/Hashable/hash(into:)``
     public func hash(into hasher: inout Hasher) {
         hasher.combine(_storage.license)
         hasher.combine(_storage.details)
     }
 
-    /// See `Equatable.==`
+    /// See ``Swift/Equatable/==(_:_:)``
     public static func ==(lhs: LicensedComponent, rhs: LicensedComponent) -> Bool {
         (lhs._storage.license, lhs._storage.details) == (rhs._storage.license, rhs._storage.details)
     }
@@ -94,7 +94,7 @@ public struct LicensedComponent: Hashable, Identifiable {
 import SwiftUI
 
 extension LicensedComponent: DynamicProperty {
-    /// See `DynamicProperty.update`
+    /// See ``SwiftUI/DynamicProperty/update``
     public func update() {
         // We use the side effect of the lazy var here.
         _ = _storage.resolvedTexts
@@ -105,9 +105,9 @@ extension LicensedComponent: DynamicProperty {
 
 extension LicensedComponent {
     /// Contains the texts of a license.
-    /// For some "known" licenses, this package already bundles the text (see `LicensedComponent.License`).
+    /// For some "known" licenses, this package already bundles the text (see ``LicensedComponent/License``).
     /// Each license can have a short text and the full license text. The short text should not exceed a certain length.
-    /// If the full license text fits into the short text, `LicenseTexts.full` can be set to `nil`.
+    /// If the full license text fits into the short text, ``LicenseTexts/full`` can be set to `nil`.
     public struct LicenseTexts: Hashable {
         /// The resolved (enriched) version of the license texts where placeholders have been replaced with the corresponding values.
         public struct Resolved: Hashable {
@@ -118,12 +118,12 @@ extension LicensedComponent {
         }
 
         /// This represents an unresolved license text. Unresolved means that the text is allowed to have certain placeholders.
-        /// This package will automatically fill those with the corresponding values of `LicensedComponent`.
+        /// This package will automatically fill those with the corresponding values of ``LicensedComponent``.
         ///
         /// The following placeholders are available:
-        /// - `%year%` - Will be replaced with `LicensedComponent.copyrightYears`
-        /// - `%copyrightholders%` - Will be replaced with `LicensedComponent.copyrightHolders`
-        /// - `%productname%` - Will be replaced with `LicensedComponent.name`
+        /// - `%year%` - Will be replaced with ``LicensedComponent/copyrightYears``
+        /// - `%copyrightholders%` - Will be replaced with ``LicensedComponent/copyrightHolders``
+        /// - `%productname%` - Will be replaced with ``LicensedComponent/name``
         ///
         /// - Note: If you provide a custom text and don't have any placeholders,
         ///         pass `false` to `hasPlaceholders` to prevent any string manipulation.
