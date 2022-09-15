@@ -88,7 +88,7 @@ jobs:
           spm-package: './'
           scheme: licensed-components-Package
           destination: ${{matrix.destination}}
-          action: Test
+          action: test
           parallel-testing-enabled: true
           enable-code-coverage: true
       - uses: sersoft-gmbh/swift-coverage-action@v3.0.0
