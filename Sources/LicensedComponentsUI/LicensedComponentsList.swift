@@ -71,6 +71,8 @@ fileprivate extension Color {
     static var label: Color {
 #if os(macOS)
         return Color(.labelColor)
+#elseif os(watchOS)
+        return primary
 #else
         return Color(.label)
 #endif
@@ -80,7 +82,7 @@ fileprivate extension Color {
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 fileprivate extension View {
     var groupedListStyle: some View {
-#if os(macOS)
+#if os(macOS) || os(watchOS)
         self
 #else
         listStyle(GroupedListStyle())
@@ -88,7 +90,7 @@ fileprivate extension View {
     }
 }
 
-@available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
+@available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
 struct LicensedComponentsList_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {

@@ -46,13 +46,20 @@ struct ComponentDetailsView: View {
         .platformAwareNavigationTitle(component.name)
         #else
         ScrollView(hasFullText ? [.horizontal, .vertical] : .vertical) {
+            let fontDesign: Font.Design = {
+                if #available(watchOS 7, *) {
+                    return .serif
+                } else {
+                    return .default
+                }
+            }()
             if let fullText = component.resolvedTexts.full {
                 Text(fullText)
-                    .font(.system(.footnote, design: .serif))
+                    .font(.system(.footnote, design: fontDesign))
                     .padding()
             } else {
                 Text(component.resolvedTexts.short)
-                    .font(.system(.body, design: .serif))
+                    .font(.system(.body, design: fontDesign))
                     .padding()
             }
         }
@@ -61,7 +68,7 @@ struct ComponentDetailsView: View {
     }
 }
 
-@available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
+@available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
 struct ComponentDetailsView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {

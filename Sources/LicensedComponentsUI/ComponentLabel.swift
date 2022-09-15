@@ -17,7 +17,7 @@ struct ComponentLabel: View {
     }
 }
 
-@available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
+@available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
 struct ComponentLabel_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
