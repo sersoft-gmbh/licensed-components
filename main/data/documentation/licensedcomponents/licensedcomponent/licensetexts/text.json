@@ -220,6 +220,7 @@
               "type" : "paragraph"
             }
           ],
+          "name" : "Note",
           "style" : "note",
           "type" : "aside"
         }
@@ -231,7 +232,8 @@
     {
       "identifiers" : [
         "doc:\/\/LicensedComponents\/SQ",
-        "doc:\/\/LicensedComponents\/SH"
+        "doc:\/\/LicensedComponents\/SH",
+        "doc:\/\/LicensedComponents\/s8SendableP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -240,7 +242,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -795,6 +797,11 @@
   "title" : "name",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/name"
+},
+"doc://LicensedComponents/s8SendableP": {
+  "identifier" : "doc:\/\/LicensedComponents\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }
