@@ -6,7 +6,7 @@ struct ComponentDetailsView: View {
     let component: LicensedComponent
 
     #if os(macOS)
-    private struct FullText: Identifiable {
+    private struct FullText: Identifiable, Sendable {
         let text: String
 
         var id: some Hashable { text }

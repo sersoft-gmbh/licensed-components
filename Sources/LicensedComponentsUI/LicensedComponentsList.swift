@@ -12,7 +12,6 @@ public struct LicensedComponentsList: View {
     private var expandedComponents = Set<LicensedComponent>()
 #endif
 
-    /// See `View.body`
     public var body: some View {
         List {
             ForEach(components) { component in
@@ -35,16 +34,21 @@ public struct LicensedComponentsList: View {
                                 : .zero
                             )
                     })
+                    .animation(.default,
+                               value: expandedComponents.contains(component))
                 }
                 if expandedComponents.contains(component) {
                     ComponentInlineDetails(component: component)
                         .listRowBackground(Color.gray.opacity(0.35))
                         .transition(.opacity)
-                        .animation(.default)
                 }
 #endif
             }
-        }.groupedListStyle
+        }
+        .animation(.default, value: expandedComponents)
+#if !(os(macOS) || os(watchOS))
+        .listStyle(.grouped)
+#endif
     }
 
     /// Creates a new list using the given components.
@@ -55,12 +59,10 @@ public struct LicensedComponentsList: View {
 
 #if !os(macOS)
     private func toggleComponentDetails(for component: LicensedComponent) {
-        withAnimation {
-            if expandedComponents.contains(component) {
-                expandedComponents.remove(component)
-            } else {
-                expandedComponents.insert(component)
-            }
+        if expandedComponents.contains(component) {
+            expandedComponents.remove(component)
+        } else {
+            expandedComponents.insert(component)
         }
     }
 #endif
@@ -75,17 +77,6 @@ fileprivate extension Color {
         return primary
 #else
         return Color(.label)
-#endif
-    }
-}
-
-@available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
-fileprivate extension View {
-    var groupedListStyle: some View {
-#if os(macOS) || os(watchOS)
-        self
-#else
-        listStyle(GroupedListStyle())
 #endif
     }
 }

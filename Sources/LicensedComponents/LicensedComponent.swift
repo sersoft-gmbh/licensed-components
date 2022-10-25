@@ -1,15 +1,9 @@
 import Foundation
 
-#if compiler(>=5.5.2) && canImport(_Concurrency)
-typealias _LCSendable = Sendable
-#else
-typealias _LCSendable = Any
-#endif
-
 /// Represents a licensed component.
 public struct LicensedComponent: Hashable, Identifiable {
     @usableFromInline
-    struct _CopyrightDetails: Hashable, _LCSendable {
+    struct _CopyrightDetails: Hashable, Sendable {
         @usableFromInline
         let licensedProduct: String
         @usableFromInline
@@ -114,9 +108,9 @@ extension LicensedComponent {
     /// For some "known" licenses, this package already bundles the text (see ``LicensedComponent/License``).
     /// Each license can have a short text and the full license text. The short text should not exceed a certain length.
     /// If the full license text fits into the short text, ``LicenseTexts/full`` can be set to `nil`.
-    public struct LicenseTexts: Hashable, _LCSendable {
+    public struct LicenseTexts: Hashable, Sendable {
         /// The resolved (enriched) version of the license texts where placeholders have been replaced with the corresponding values.
-        public struct Resolved: Hashable, _LCSendable {
+        public struct Resolved: Hashable, Sendable {
             /// The resolved short license text.
             public let short: String
             /// The resolved full license text.
@@ -133,7 +127,7 @@ extension LicensedComponent {
         ///
         /// - Note: If you provide a custom text and don't have any placeholders,
         ///         pass `false` to `hasPlaceholders` to prevent any string manipulation.
-        public struct Text: Hashable, _LCSendable {
+        public struct Text: Hashable, Sendable {
             /// The string of this text.
             public let string: String
             /// Whether `string` contains placeholders.
@@ -180,21 +174,21 @@ extension LicensedComponent {
 
 extension LicensedComponent {
     /// Describes a license.
-    public enum License: Hashable, _LCSendable {
+    public enum License: Hashable, Sendable {
         /// The Apache license versions.
-        public enum Apache: Hashable, _LCSendable {
+        public enum Apache: Hashable, Sendable {
             /// Version 2.0 of the Apache license.
             case v2
         }
 
         /// The BSD license versions.
-        public enum BSD: Hashable, _LCSendable {
+        public enum BSD: Hashable, Sendable {
             /// The 3-Clause version of the BSD license.
             case threeClause
         }
 
         /// The GPL license versions.
-        public enum GPL: Hashable, _LCSendable {
+        public enum GPL: Hashable, Sendable {
             /// Version 3.0 of the GPL license.
             case v3
         }
