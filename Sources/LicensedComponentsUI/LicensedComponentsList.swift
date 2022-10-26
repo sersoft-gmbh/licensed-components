@@ -7,7 +7,7 @@ public struct LicensedComponentsList: View {
     /// The components shown in this view.
     public let components: Array<LicensedComponent>
 
-#if !os(macOS)
+#if !(os(macOS) || os(watchOS))
     @State
     private var expandedComponents = Set<LicensedComponent>()
 #endif
@@ -15,7 +15,7 @@ public struct LicensedComponentsList: View {
     public var body: some View {
         List {
             ForEach(components) { component in
-#if os(macOS)
+#if os(macOS) || os(watchOS)
                 NavigationLink(
                     destination: ComponentDetailsView(component: component),
                     label: { ComponentLabel(component: component) }
@@ -45,8 +45,8 @@ public struct LicensedComponentsList: View {
 #endif
             }
         }
-        .animation(.default, value: expandedComponents)
 #if !(os(macOS) || os(watchOS))
+        .animation(.default, value: expandedComponents)
         .listStyle(.grouped)
 #endif
     }
@@ -57,7 +57,7 @@ public struct LicensedComponentsList: View {
         self.components = components
     }
 
-#if !os(macOS)
+#if !(os(macOS) || os(watchOS))
     private func toggleComponentDetails(for component: LicensedComponent) {
         if expandedComponents.contains(component) {
             expandedComponents.remove(component)
