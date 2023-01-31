@@ -239,7 +239,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "On tvOS, the string that you provide to the this modifier will",
+              "text" : "On tvOS, the string that you provide to the this modifier is",
               "type" : "text"
             },
             {
@@ -247,7 +247,7 @@
               "type" : "text"
             },
             {
-              "text" : "be used when displaying the associated suggestion and when",
+              "text" : "used when displaying the associated suggestion and when",
               "type" : "text"
             },
             {
