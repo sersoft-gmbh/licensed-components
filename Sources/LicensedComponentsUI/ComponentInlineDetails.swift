@@ -3,14 +3,14 @@ import SwiftUI
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 struct ComponentInlineDetails: View {
-    let component: LicensedComponent
+    var component: LicensedComponent
 
     var body: some View {
         Text(component.resolvedTexts.short)
             .font(.footnote)
         if component.resolvedTexts.full != nil {
             NavigationLink(
-                destination: ComponentDetailsView(component: component),
+                destination: LicensedComponentView(component: component),
                 label: {
                     HStack {
                         Spacer()

@@ -1,10 +1,10 @@
 import SwiftUI
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
-struct ComponentLabel: View {
-    let component: LicensedComponent
+public struct LicensedComponentLabel: View {
+    public var component: LicensedComponent
 
-    var body: some View {
+    public var body: some View {
         VStack(alignment: .leading, spacing: 3) {
             Text(component.name)
                 .font(.headline)
@@ -15,18 +15,20 @@ struct ComponentLabel: View {
             .font(.footnote)
         }
     }
+
+    public init(component: LicensedComponent) {
+        self.component = component
+    }
 }
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
-struct ComponentLabel_Previews: PreviewProvider {
+struct LicensedComponentLabel_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
-            ComponentLabel(component: LicensedComponent(
-                name: "Test Component",
-                license: .mit,
-                copyrightYears: "2020-2021",
-                copyrightHolders: "This guy"
-            ))
-        }
+        LicensedComponentLabel(component: .init(
+            name: "Test Component",
+            license: .mit,
+            copyrightYears: "2020-2021",
+            copyrightHolders: "This guy"
+        ))
     }
 }

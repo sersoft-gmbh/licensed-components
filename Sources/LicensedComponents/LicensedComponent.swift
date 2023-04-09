@@ -58,7 +58,6 @@ public struct LicensedComponent: Hashable, Identifiable {
     @inlinable
     public var resolvedTexts: LicenseTexts.Resolved { _storage.resolvedTexts }
 
-    /// See `Identifiable.id`.
     public var id: some Hashable { self }
 
     /// Creates a new licensed component using the given parameters.
@@ -77,13 +76,11 @@ public struct LicensedComponent: Hashable, Identifiable {
                                         holders: copyrightHolders))
     }
 
-    /// See ``Swift/Hashable/hash(into:)``
     public func hash(into hasher: inout Hasher) {
         hasher.combine(_storage.license)
         hasher.combine(_storage.details)
     }
 
-    /// See ``Swift/Equatable/==(_:_:)``
     public static func ==(lhs: LicensedComponent, rhs: LicensedComponent) -> Bool {
         (lhs._storage.license, lhs._storage.details) == (rhs._storage.license, rhs._storage.details)
     }
@@ -94,7 +91,6 @@ public struct LicensedComponent: Hashable, Identifiable {
 import SwiftUI
 
 extension LicensedComponent: DynamicProperty {
-    /// See ``SwiftUI/DynamicProperty/update``
     public func update() {
         // We use the side effect of the lazy var here.
         _ = _storage.resolvedTexts

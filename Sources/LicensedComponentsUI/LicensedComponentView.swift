@@ -2,10 +2,10 @@ import SwiftUI
 import LicensedComponents
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
-struct ComponentDetailsView: View {
-    let component: LicensedComponent
+public struct LicensedComponentView: View {
+    public var component: LicensedComponent
 
-    #if os(macOS)
+#if os(macOS)
     private struct FullText: Identifiable, Sendable {
         let text: String
 
@@ -14,27 +14,27 @@ struct ComponentDetailsView: View {
 
     @State
     private var fullText: FullText?
-    #endif
+#endif
 
     private var hasFullText: Bool { component.resolvedTexts.full != nil }
 
-    var body: some View {
-        #if os(macOS)
+    public var body: some View {
+#if os(macOS)
         VStack {
             if let full = component.resolvedTexts.full {
                 HStack {
                     Spacer()
                     Button(action: { fullText = FullText(text: full) },
                            label: { Image(systemName: "doc.text") })
-                        .buttonStyle(PlainButtonStyle())
-                        .padding([.top, .trailing], 5)
-                        .popover(item: $fullText) { fullText in
-                            ScrollView {
-                                Text(fullText.text)
-                                    .font(.system(.footnote, design: .serif))
-                                    .padding()
-                            }
+                    .buttonStyle(.plain)
+                    .padding([.top, .trailing], 5)
+                    .popover(item: $fullText) { fullText in
+                        ScrollView {
+                            Text(fullText.text)
+                                .font(.system(.footnote, design: .serif))
+                                .padding()
                         }
+                    }
                 }
             }
             ScrollView(.vertical) {
@@ -44,7 +44,7 @@ struct ComponentDetailsView: View {
             }
         }
         .platformAwareNavigationTitle(component.name)
-        #else
+#else
         ScrollView(hasFullText ? [.horizontal, .vertical] : .vertical) {
             let fontDesign: Font.Design = {
                 if #available(watchOS 7, *) {
@@ -64,15 +64,35 @@ struct ComponentDetailsView: View {
             }
         }
         .platformAwareNavigationTitle(component.name)
-        #endif
+#endif
+    }
+
+    public init(component: LicensedComponent) {
+        self.component = component
+    }
+}
+
+@available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
+fileprivate extension View {
+    @ViewBuilder
+    func platformAwareNavigationTitle<S: StringProtocol>(_ title: S) -> some View {
+        if #available(macOS 11, iOS 14, tvOS 14, watchOS 7, *) {
+            navigationTitle(title)
+        } else {
+#if !os(macOS)
+            navigationBarTitle(title)
+#else
+            self
+#endif
+        }
     }
 }
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
-struct ComponentDetailsView_Previews: PreviewProvider {
+struct LicensedComponentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ComponentDetailsView(component: LicensedComponent(
+            LicensedComponentView(component: .init(
                 name: "Test Component",
                 license: .mit,
                 copyrightYears: "2020-2021",
@@ -80,7 +100,7 @@ struct ComponentDetailsView_Previews: PreviewProvider {
             ))
         }
         NavigationView {
-            ComponentDetailsView(component: LicensedComponent(
+            LicensedComponentView(component: .init(
                 name: "Something else",
                 license: .apache(.v2),
                 copyrightYears: "2020",

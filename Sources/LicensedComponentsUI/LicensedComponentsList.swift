@@ -5,7 +5,7 @@ import LicensedComponents
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 public struct LicensedComponentsList: View {
     /// The components shown in this view.
-    public let components: Array<LicensedComponent>
+    public var components: Array<LicensedComponent>
 
 #if !(os(macOS) || os(watchOS))
     @State
@@ -17,12 +17,12 @@ public struct LicensedComponentsList: View {
             ForEach(components) { component in
 #if os(macOS) || os(watchOS)
                 NavigationLink(
-                    destination: ComponentDetailsView(component: component),
-                    label: { ComponentLabel(component: component) }
+                    destination: LicensedComponentView(component: component),
+                    label: { LicensedComponentLabel(component: component) }
                 )
 #else
                 HStack {
-                    ComponentLabel(component: component)
+                    LicensedComponentLabel(component: component)
                     Spacer()
                     Button(action: { toggleComponentDetails(for: component) },
                            label: {
@@ -72,11 +72,19 @@ public struct LicensedComponentsList: View {
 fileprivate extension Color {
     static var label: Color {
 #if os(macOS)
-        return Color(.labelColor)
+        if #available(macOS 12, *) {
+            return Color(nsColor: .labelColor)
+        } else {
+            return Color(.labelColor)
+        }
 #elseif os(watchOS)
-        return primary
+            return primary
 #else
-        return Color(.label)
+        if #available(iOS 15, tvOS 15, *) {
+            return Color(uiColor: .label)
+        } else {
+            return Color(.label)
+        }
 #endif
     }
 }
