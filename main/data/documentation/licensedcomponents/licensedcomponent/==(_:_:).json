@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Swift\/Equatable\/==(_:_:)",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -242,14 +232,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/==(_:_:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Swift\/Equatable\/==(_:_:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

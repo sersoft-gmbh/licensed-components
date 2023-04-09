@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Swift\/Hashable\/hash(into:)",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -212,14 +202,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/hash(into:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Swift\/Hashable\/hash(into:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {

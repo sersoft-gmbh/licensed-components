@@ -228,14 +228,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/==(_:_:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Swift\/Equatable\/==(_:_:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
@@ -636,14 +629,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/hash(into:)": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Swift\/Hashable\/hash(into:)",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
@@ -697,18 +683,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/id-1zmsm": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "Identifiable.id",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

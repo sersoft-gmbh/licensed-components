@@ -1,14 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SwiftUI\/DynamicProperty\/update",
-      "type" : "codeVoice"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -167,14 +157,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/update()": {
   "abstract" : [
-    {
-      "text" : "See ",
-      "type" : "text"
-    },
-    {
-      "code" : "SwiftUI\/DynamicProperty\/update",
-      "type" : "codeVoice"
-    }
+
   ],
   "fragments" : [
     {
