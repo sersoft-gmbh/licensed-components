@@ -6,7 +6,7 @@ public struct LicensedComponentView: View {
     public var component: LicensedComponent
 
 #if os(macOS)
-    private struct FullText: Identifiable, Sendable {
+    private struct FullText: Sendable, Identifiable {
         let text: String
 
         var id: some Hashable { text }
@@ -75,7 +75,7 @@ public struct LicensedComponentView: View {
 @available(macOS 10.15, iOS 13, tvOS 13, watchOS 6, *)
 fileprivate extension View {
     @ViewBuilder
-    func platformAwareNavigationTitle<S: StringProtocol>(_ title: S) -> some View {
+    func platformAwareNavigationTitle(_ title: some StringProtocol) -> some View {
         if #available(macOS 11, iOS 14, tvOS 14, watchOS 7, *) {
             navigationTitle(title)
         } else {

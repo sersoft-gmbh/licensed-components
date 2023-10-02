@@ -1,8 +1,17 @@
-// swift-tools-version:5.8
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-import Foundation
+
+let swiftSettings: Array<SwiftSetting> = [
+    .enableUpcomingFeature("ConciseMagicFile"),
+    .enableUpcomingFeature("ExistentialAny"),
+    .enableUpcomingFeature("BareSlashRegexLiterals"),
+    .enableUpcomingFeature("DisableOutwardActorInference"),
+//    .enableExperimentalFeature("AccessLevelOnImport"),
+//    .enableExperimentalFeature("VariadicGenerics"),
+//    .unsafeFlags(["-warn-concurrency"], .when(configuration: .debug)),
+]
 
 let package = Package(
     name: "licensed-components",
@@ -21,6 +30,9 @@ let package = Package(
             name: "LicensedComponentsUI",
             targets: ["LicensedComponentsUI"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"),
+    ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
@@ -28,16 +40,15 @@ let package = Package(
             name: "LicensedComponents",
             resources: [
                 .copy("Resources/BundledLicenseTexts"),
-            ]),
+            ],
+            swiftSettings: swiftSettings),
         .target(
             name: "LicensedComponentsUI",
-            dependencies: ["LicensedComponents"]),
+            dependencies: ["LicensedComponents"],
+            swiftSettings: swiftSettings),
         .testTarget(
             name: "LicensedComponentsTests",
-            dependencies: ["LicensedComponents"]),
+            dependencies: ["LicensedComponents"],
+            swiftSettings: swiftSettings),
     ]
 )
-
-if ProcessInfo.processInfo.environment["ENABLE_DOCC_SUPPORT"] == "1" {
-    package.dependencies.append(.package(url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"))
-}
