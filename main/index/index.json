@@ -196,7 +196,7 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/id-1zmsm",
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/id",
                 "title" : "var id: some Hashable",
                 "type" : "property"
               },
@@ -440,22 +440,6 @@
                 "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/equatable-implementations",
                 "title" : "Equatable Implementations",
                 "type" : "symbol"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Instance Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/id-9v2rg",
-                    "title" : "var id: ObjectIdentifier",
-                    "type" : "property"
-                  }
-                ],
-                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/identifiable-implementations",
-                "title" : "Identifiable Implementations",
-                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/licensedcomponents\/licensedcomponent",
@@ -472,6 +456,6 @@
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,
-    "patch" : 0
+    "patch" : 1
   }
 }

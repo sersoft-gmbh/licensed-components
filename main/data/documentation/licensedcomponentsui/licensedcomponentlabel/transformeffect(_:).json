@@ -64,7 +64,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -290,10 +293,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "SwiftUI-View-transformEffect.png",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         }

@@ -64,7 +64,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -306,10 +309,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "SwiftUI-View-controlSize.png",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         }

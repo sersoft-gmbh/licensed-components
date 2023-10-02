@@ -243,6 +243,40 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent"
 },
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Describes a license.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "License"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "License"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.License",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum"
+},
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/LicenseTexts": {
   "abstract" : [
     {
@@ -258,8 +292,9 @@
       "type" : "text"
     },
     {
-      "code" : "LicensedComponent\/License",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ").",

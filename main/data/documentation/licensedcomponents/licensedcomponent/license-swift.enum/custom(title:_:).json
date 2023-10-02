@@ -337,8 +337,9 @@
       "type" : "text"
     },
     {
-      "code" : "LicensedComponent\/License",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ").",

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Controls whether to queue pending announcements behind existing speech rather than",
+      "text" : "Controls whether to queue pending announcements behind existing speech",
       "type" : "text"
     },
     {
@@ -9,7 +9,7 @@
       "type" : "text"
     },
     {
-      "text" : "interrupting speech in progress.",
+      "text" : "rather than interrupting speech in progress.",
       "type" : "text"
     }
   ],
@@ -72,7 +72,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -350,7 +353,7 @@
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/speechAnnouncementsQueued(_:)": {
   "abstract" : [
     {
-      "text" : "Controls whether to queue pending announcements behind existing speech rather than",
+      "text" : "Controls whether to queue pending announcements behind existing speech",
       "type" : "text"
     },
     {
@@ -358,7 +361,7 @@
       "type" : "text"
     },
     {
-      "text" : "interrupting speech in progress.",
+      "text" : "rather than interrupting speech in progress.",
       "type" : "text"
     }
   ],

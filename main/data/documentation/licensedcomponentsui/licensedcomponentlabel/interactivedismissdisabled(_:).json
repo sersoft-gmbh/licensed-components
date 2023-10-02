@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Conditionally prevents interactive dismissal of a popover or a sheet.",
+      "text" : "Conditionally prevents interactive dismissal of presentations like",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "popovers, sheets, and inspectors.",
       "type" : "text"
     }
   ],
@@ -64,7 +72,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -588,7 +599,15 @@
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/interactiveDismissDisabled(_:)": {
   "abstract" : [
     {
-      "text" : "Conditionally prevents interactive dismissal of a popover or a sheet.",
+      "text" : "Conditionally prevents interactive dismissal of presentations like",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "popovers, sheets, and inspectors.",
       "type" : "text"
     }
   ],

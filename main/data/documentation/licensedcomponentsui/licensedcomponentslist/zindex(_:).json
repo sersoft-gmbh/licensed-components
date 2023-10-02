@@ -64,7 +64,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -282,10 +285,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "SwiftUI-View-zIndex.png",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         }

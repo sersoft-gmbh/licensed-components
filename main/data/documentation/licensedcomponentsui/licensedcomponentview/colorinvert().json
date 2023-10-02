@@ -55,7 +55,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -267,10 +270,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "SwiftUI-View-colorInvert.png",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         }

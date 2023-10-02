@@ -123,7 +123,7 @@
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/baseTexts",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/copyrightHolders",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/copyrightYears",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/id-1zmsm",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/id",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/license-swift.property",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/name",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/resolvedTexts"
@@ -146,8 +146,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/DynamicProperty-Implementations",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/Equatable-Implementations",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/Identifiable-Implementations"
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -312,17 +311,6 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/equatable-implementations"
 },
-"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/Identifiable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/Identifiable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Identifiable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/identifiable-implementations"
-},
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum": {
   "abstract" : [
     {
@@ -372,8 +360,9 @@
       "type" : "text"
     },
     {
-      "code" : "LicensedComponent\/License",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
       "text" : ").",
@@ -681,7 +670,7 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/hash(into:)"
 },
-"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/id-1zmsm": {
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/id": {
   "abstract" : [
 
   ],
@@ -716,12 +705,12 @@
       "text" : "Hashable"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/id-1zmsm",
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/id",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "id",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/id-1zmsm"
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/id"
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/init(name:license:copyrightYears:copyrightHolders:)": {
   "abstract" : [

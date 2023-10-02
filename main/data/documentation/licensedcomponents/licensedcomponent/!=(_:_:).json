@@ -69,7 +69,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponents"
+        "name" : "LicensedComponents",
+        "relatedModules" : [
+          "Swift"
+        ]
       }
     ],
     "role" : "symbol",

@@ -89,7 +89,10 @@
     ],
     "modules" : [
       {
-        "name" : "LicensedComponentsUI"
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "SwiftUI"
+        ]
       }
     ],
     "platforms" : [
@@ -346,10 +349,7 @@
         },
         {
           "inlineContent" : [
-            {
-              "identifier" : "SwiftUI-View-scaleEffect.png",
-              "type" : "image"
-            }
+
           ],
           "type" : "paragraph"
         }
