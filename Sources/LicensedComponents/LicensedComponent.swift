@@ -204,11 +204,11 @@ extension LicensedComponent {
         /// The title of the license.
         public var title: String {
             switch self {
-            case .mit: return "MIT"
-            case .apache(.v2): return "Apache v2"
-            case .bsd(.threeClause): return "BSD 3-Clause"
-            case .gpl(.v3): return "GPL v3"
-            case .custom(let title, _): return title
+            case .mit: "MIT"
+            case .apache(.v2): "Apache v2"
+            case .bsd(.threeClause): "BSD 3-Clause"
+            case .gpl(.v3): "GPL v3"
+            case .custom(let title, _): title
             }
         }
     }
@@ -237,11 +237,11 @@ extension LicensedComponent.LicenseTexts {
 extension LicensedComponent.License {
     var _baseTexts: LicensedComponent.LicenseTexts {
         switch self {
-        case .mit: return .bundled(inDirectory: "MIT", hasFull: false)
-        case .apache(.v2): return .bundled(inDirectory: "Apache/v2")
-        case .bsd(.threeClause): return .bundled(inDirectory: "BSD/3Clause", hasFull: false)
-        case .gpl(.v3): return .bundled(inDirectory: "GPL/v3")
-        case .custom(_, let texts): return texts
+        case .mit: .bundled(inDirectory: "MIT", hasFull: false)
+        case .apache(.v2): .bundled(inDirectory: "Apache/v2")
+        case .bsd(.threeClause): .bundled(inDirectory: "BSD/3Clause", hasFull: false)
+        case .gpl(.v3): .bundled(inDirectory: "GPL/v3")
+        case .custom(_, let texts): texts
         }
     }
 }
