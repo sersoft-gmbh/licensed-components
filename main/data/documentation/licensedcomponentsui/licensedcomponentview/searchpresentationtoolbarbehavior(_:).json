@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Adds help text to a view using a text view that you provide.",
+      "text" : "Configures the search toolbar presentation behavior for any",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "searchable modifiers within this view.",
       "type" : "text"
     }
   ],
@@ -16,12 +24,12 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/help(_:)-4g7ls"
+    "url" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/searchPresentationToolbarBehavior(_:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftUI",
-    "externalID" : "s:7SwiftUI4ViewPAAE4helpyQrAA4TextVF::SYNTHESIZED::s:20LicensedComponentsUI0A13ComponentViewV",
+    "externalID" : "s:7SwiftUI4ViewPAAE33searchPresentationToolbarBehavioryQrAA06SearchefG0VF::SYNTHESIZED::s:20LicensedComponentsUI0A13ComponentViewV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -33,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "help"
+        "text" : "searchPresentationToolbarBehavior"
       },
       {
         "kind" : "text",
@@ -41,8 +49,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7SwiftUI4TextV",
-        "text" : "Text"
+        "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+        "text" : "SearchPresentationToolbarBehavior"
       },
       {
         "kind" : "text",
@@ -74,28 +82,28 @@
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "14.0",
+        "introducedAt" : "17.1",
         "name" : "iOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "11.0",
+        "introducedAt" : "14.1",
         "name" : "macOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "14.0",
+        "introducedAt" : "17.1",
         "name" : "tvOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "7.0",
+        "introducedAt" : "10.1",
         "name" : "watchOS",
         "unavailable" : false
       }
@@ -103,7 +111,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "help(_:)"
+    "title" : "searchPresentationToolbarBehavior(_:)"
   },
   "primaryContentSections" : [
     {
@@ -126,7 +134,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "help"
+              "text" : "searchPresentationToolbarBehavior"
             },
             {
               "kind" : "text",
@@ -142,7 +150,7 @@
             },
             {
               "kind" : "internalParam",
-              "text" : "text"
+              "text" : "behavior"
             },
             {
               "kind" : "text",
@@ -150,8 +158,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7SwiftUI4TextV",
-              "text" : "Text"
+              "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+              "text" : "SearchPresentationToolbarBehavior"
             },
             {
               "kind" : "text",
@@ -180,33 +188,6 @@
       "kind" : "declarations"
     },
     {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "The ",
-                  "type" : "text"
-                },
-                {
-                  "code" : "Text",
-                  "type" : "codeVoice"
-                },
-                {
-                  "text" : " view to use as help.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "text"
-        }
-      ]
-    },
-    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -217,7 +198,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "Adding help to a view configures the view’s accessibility hint and",
+              "text" : "By default on iOS, a toolbar may hide parts of its content when",
               "type" : "text"
             },
             {
@@ -225,20 +206,7 @@
               "type" : "text"
             },
             {
-              "text" : "its help tag (also called a ",
-              "type" : "text"
-            },
-            {
-              "inlineContent" : [
-                {
-                  "text" : "tooltip",
-                  "type" : "text"
-                }
-              ],
-              "type" : "emphasis"
-            },
-            {
-              "text" : ") in macOS or visionOS.",
+              "text" : "presenting search to focus on searching. You can override",
               "type" : "text"
             },
             {
@@ -246,7 +214,7 @@
               "type" : "text"
             },
             {
-              "text" : "For more information on using help tags, see",
+              "text" : "this behavior by providing a value of",
               "type" : "text"
             },
             {
@@ -254,15 +222,15 @@
               "type" : "text"
             },
             {
-              "text" : "doc:\/\/com.apple.documentation\/design\/human-interface-guidelines\/offering-help",
-              "type" : "text"
+              "code" : "SearchPresentationToolbarBehavior\/avoidHidingContent",
+              "type" : "codeVoice"
             },
             {
               "text" : " ",
               "type" : "text"
             },
             {
-              "text" : "in the Human Interface Guidelines.",
+              "text" : "to this modifer.",
               "type" : "text"
             }
           ],
@@ -270,8 +238,13 @@
         },
         {
           "code" : [
-            "Slider(\"Opacity\", value: $selectedShape.opacity)",
-            "    .help(Text(\"Adjust the opacity of the selected \\(selectedShape.name)\"))"
+            "@State private var searchText = \"\"",
+            "",
+            "List {",
+            "    \/\/ ... content",
+            "}",
+            ".searchable(text: $searchText)",
+            ".searchPresentationToolbarBehavior(.avoidHidingContent)"
           ],
           "syntax" : null,
           "type" : "codeListing"
@@ -291,7 +264,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/licensedcomponentsui\/licensedcomponentview\/help(_:)-4g7ls"
+        "\/documentation\/licensedcomponentsui\/licensedcomponentview\/searchpresentationtoolbarbehavior(_:)"
       ],
       "traits" : [
         {
@@ -355,10 +328,18 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/view-implementations"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/help(_:)-4g7ls": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/searchPresentationToolbarBehavior(_:)": {
   "abstract" : [
     {
-      "text" : "Adds help text to a view using a text view that you provide.",
+      "text" : "Configures the search toolbar presentation behavior for any",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "searchable modifiers within this view.",
       "type" : "text"
     }
   ],
@@ -373,7 +354,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "help"
+      "text" : "searchPresentationToolbarBehavior"
     },
     {
       "kind" : "text",
@@ -381,8 +362,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI4TextV",
-      "text" : "Text"
+      "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+      "text" : "SearchPresentationToolbarBehavior"
     },
     {
       "kind" : "text",
@@ -402,12 +383,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/help(_:)-4g7ls",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/searchPresentationToolbarBehavior(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "help(_:)",
+  "title" : "searchPresentationToolbarBehavior(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/help(_:)-4g7ls"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/searchpresentationtoolbarbehavior(_:)"
 }
 }
 }

@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "Constrains this view’s dimensions to the aspect ratio of the given size.",
+      "text" : "Configures the search toolbar presentation behavior for any",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "searchable modifiers within this view.",
       "type" : "text"
     }
   ],
@@ -16,12 +24,12 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/aspectRatio(_:contentMode:)-75ceg"
+    "url" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/searchPresentationToolbarBehavior(_:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "SwiftUI",
-    "externalID" : "s:7SwiftUI4ViewPAAE11aspectRatio_11contentModeQrSo6CGSizeV_AA07ContentG0OtF::SYNTHESIZED::s:20LicensedComponentsUI0aB4ListV",
+    "externalID" : "s:7SwiftUI4ViewPAAE33searchPresentationToolbarBehavioryQrAA06SearchefG0VF::SYNTHESIZED::s:20LicensedComponentsUI0aB4ListV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -33,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "aspectRatio"
+        "text" : "searchPresentationToolbarBehavior"
       },
       {
         "kind" : "text",
@@ -41,25 +49,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "c:@S@CGSize",
-        "text" : "CGSize"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "contentMode"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:7SwiftUI11ContentModeO",
-        "text" : "ContentMode"
+        "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+        "text" : "SearchPresentationToolbarBehavior"
       },
       {
         "kind" : "text",
@@ -91,28 +82,28 @@
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "13.0",
+        "introducedAt" : "17.1",
         "name" : "iOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "10.15",
+        "introducedAt" : "14.1",
         "name" : "macOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "13.0",
+        "introducedAt" : "17.1",
         "name" : "tvOS",
         "unavailable" : false
       },
       {
         "beta" : false,
         "deprecated" : false,
-        "introducedAt" : "6.0",
+        "introducedAt" : "10.1",
         "name" : "watchOS",
         "unavailable" : false
       }
@@ -120,7 +111,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "aspectRatio(_:contentMode:)"
+    "title" : "searchPresentationToolbarBehavior(_:)"
   },
   "primaryContentSections" : [
     {
@@ -143,7 +134,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "aspectRatio"
+              "text" : "searchPresentationToolbarBehavior"
             },
             {
               "kind" : "text",
@@ -159,7 +150,7 @@
             },
             {
               "kind" : "internalParam",
-              "text" : "aspectRatio"
+              "text" : "behavior"
             },
             {
               "kind" : "text",
@@ -167,25 +158,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "c:@S@CGSize",
-              "text" : "CGSize"
-            },
-            {
-              "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "contentMode"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:7SwiftUI11ContentModeO",
-              "text" : "ContentMode"
+              "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+              "text" : "SearchPresentationToolbarBehavior"
             },
             {
               "kind" : "text",
@@ -214,95 +188,6 @@
       "kind" : "declarations"
     },
     {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "A size that specifies the ratio of width to height to",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "use for the resulting view.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "aspectRatio"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "A flag indicating whether this view should fit or fill",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "the parent context.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "contentMode"
-        }
-      ]
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A view that constrains this view’s dimensions to",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "code" : "aspectRatio",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : ", using ",
-              "type" : "text"
-            },
-            {
-              "code" : "contentMode",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " as its scaling algorithm.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -313,68 +198,39 @@
         {
           "inlineContent" : [
             {
-              "text" : "Use ",
+              "text" : "By default on iOS, a toolbar may hide parts of its content when",
               "type" : "text"
             },
             {
-              "code" : "aspectRatio(_:contentMode:)",
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "presenting search to focus on searching. You can override",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "this behavior by providing a value of",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "code" : "SearchPresentationToolbarBehavior\/avoidHidingContent",
               "type" : "codeVoice"
             },
             {
-              "text" : " to constrain a view’s dimensions to",
-              "type" : "text"
-            },
-            {
               "text" : " ",
               "type" : "text"
             },
             {
-              "text" : "an aspect ratio specified by a",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "doc:\/\/com.apple.documentation\/documentation\/CoreFoundation\/CGSize",
-              "type" : "text"
-            },
-            {
-              "text" : ".",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "If this view is resizable, the resulting view uses ",
-              "type" : "text"
-            },
-            {
-              "code" : "aspectRatio",
-              "type" : "codeVoice"
-            },
-            {
-              "text" : " as its",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "own aspect ratio. In this example, the purple ellipse has a 3:4",
-              "type" : "text"
-            },
-            {
-              "text" : " ",
-              "type" : "text"
-            },
-            {
-              "text" : "width-to-height ratio, and scales to fill its frame:",
+              "text" : "to this modifer.",
               "type" : "text"
             }
           ],
@@ -382,20 +238,16 @@
         },
         {
           "code" : [
-            "Ellipse()",
-            "    .fill(Color.purple)",
-            "    .aspectRatio(CGSize(width: 3, height: 4), contentMode: .fill)",
-            "    .frame(width: 200, height: 200)",
-            "    .border(Color(white: 0.75))"
+            "@State private var searchText = \"\"",
+            "",
+            "List {",
+            "    \/\/ ... content",
+            "}",
+            ".searchable(text: $searchText)",
+            ".searchPresentationToolbarBehavior(.avoidHidingContent)"
           ],
           "syntax" : null,
           "type" : "codeListing"
-        },
-        {
-          "inlineContent" : [
-
-          ],
-          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -412,7 +264,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/aspectratio(_:contentmode:)-75ceg"
+        "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/searchpresentationtoolbarbehavior(_:)"
       ],
       "traits" : [
         {
@@ -479,10 +331,18 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/view-implementations"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/aspectRatio(_:contentMode:)-75ceg": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/searchPresentationToolbarBehavior(_:)": {
   "abstract" : [
     {
-      "text" : "Constrains this view’s dimensions to the aspect ratio of the given size.",
+      "text" : "Configures the search toolbar presentation behavior for any",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "searchable modifiers within this view.",
       "type" : "text"
     }
   ],
@@ -497,7 +357,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "aspectRatio"
+      "text" : "searchPresentationToolbarBehavior"
     },
     {
       "kind" : "text",
@@ -505,25 +365,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "c:@S@CGSize",
-      "text" : "CGSize"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "contentMode"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI11ContentModeO",
-      "text" : "ContentMode"
+      "preciseIdentifier" : "s:7SwiftUI33SearchPresentationToolbarBehaviorV",
+      "text" : "SearchPresentationToolbarBehavior"
     },
     {
       "kind" : "text",
@@ -543,12 +386,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/aspectRatio(_:contentMode:)-75ceg",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/searchPresentationToolbarBehavior(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "aspectRatio(_:contentMode:)",
+  "title" : "searchPresentationToolbarBehavior(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/aspectratio(_:contentmode:)-75ceg"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/searchpresentationtoolbarbehavior(_:)"
 }
 }
 }
