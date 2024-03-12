@@ -1,0 +1,461 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Structures",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/resolved\/full",
+                        "title" : "let full: String?",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/resolved\/short",
+                        "title" : "let short: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/resolved\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/resolved\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/resolved",
+                    "title" : "LicensedComponent.LicenseTexts.Resolved",
+                    "type" : "struct"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/init(_:hasplaceholders:)",
+                        "title" : "init(String, hasPlaceholders: Bool)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/hasplaceholders",
+                        "title" : "let hasPlaceholders: Bool",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/string",
+                        "title" : "let string: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text",
+                    "title" : "LicensedComponent.LicenseTexts.Text",
+                    "type" : "struct"
+                  },
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/init(short:full:)",
+                    "title" : "init(short: LicensedComponent.LicenseTexts.Text, full: LicensedComponent.LicenseTexts.Text?)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/full",
+                    "title" : "let full: LicensedComponent.LicenseTexts.Text?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/short",
+                    "title" : "let short: LicensedComponent.LicenseTexts.Text",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts",
+                "title" : "LicensedComponent.LicenseTexts",
+                "type" : "struct"
+              },
+              {
+                "title" : "Operators",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/==(_:_:)",
+                "title" : "static func == (LicensedComponent, LicensedComponent) -> Bool",
+                "type" : "op"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/init(name:license:copyrightyears:copyrightholders:)",
+                "title" : "init(name: String, license: LicensedComponent.License, copyrightYears: String, copyrightHolders: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/basetexts",
+                "title" : "var baseTexts: LicensedComponent.LicenseTexts",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/copyrightholders",
+                "title" : "var copyrightHolders: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/copyrightyears",
+                "title" : "var copyrightYears: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/id",
+                "title" : "var id: some Hashable",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.property",
+                "title" : "var license: LicensedComponent.License",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/name",
+                "title" : "var name: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/resolvedtexts",
+                "title" : "var resolvedTexts: LicensedComponent.LicenseTexts.Resolved",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/hash(into:)",
+                "title" : "func hash(into: inout Hasher)",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/apache(_:)",
+                    "title" : "case apache(LicensedComponent.License.Apache)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/bsd(_:)",
+                    "title" : "case bsd(LicensedComponent.License.BSD)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/custom(title:_:)",
+                    "title" : "case custom(title: String, LicensedComponent.LicenseTexts)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl(_:)",
+                    "title" : "case gpl(LicensedComponent.License.GPL)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/mit",
+                    "title" : "case mit",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/title",
+                    "title" : "var title: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Enumerations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Enumeration Cases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/apache\/v2",
+                        "title" : "case v2",
+                        "type" : "case"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/apache\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/apache\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/apache",
+                    "title" : "LicensedComponent.License.Apache",
+                    "type" : "enum"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Enumeration Cases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/bsd\/threeclause",
+                        "title" : "case threeClause",
+                        "type" : "case"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/bsd\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/bsd\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/bsd",
+                    "title" : "LicensedComponent.License.BSD",
+                    "type" : "enum"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Enumeration Cases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl\/v3",
+                        "title" : "case v3",
+                        "type" : "case"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl",
+                    "title" : "LicensedComponent.License.GPL",
+                    "type" : "enum"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum",
+                "title" : "LicensedComponent.License",
+                "type" : "enum"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/update()",
+                    "title" : "func update()",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/dynamicproperty-implementations",
+                "title" : "DynamicProperty Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/licensedcomponents\/licensedcomponent\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/licensedcomponents\/licensedcomponent",
+            "title" : "LicensedComponent",
+            "type" : "struct"
+          }
+        ],
+        "path" : "\/documentation\/licensedcomponents",
+        "title" : "LicensedComponents",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 1
+  }
+}
