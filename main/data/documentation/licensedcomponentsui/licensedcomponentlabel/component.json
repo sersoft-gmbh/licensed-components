@@ -72,6 +72,10 @@
         "unavailable" : false
       }
     ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponentLabel.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/Sources\/LicensedComponentsUI\/LicensedComponentLabel.swift#L5"
+    },
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",

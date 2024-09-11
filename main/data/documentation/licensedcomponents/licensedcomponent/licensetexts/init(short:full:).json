@@ -106,6 +106,10 @@
         "name" : "LicensedComponents"
       }
     ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponent.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/Sources\/LicensedComponents\/LicensedComponent.swift#L159"
+    },
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",

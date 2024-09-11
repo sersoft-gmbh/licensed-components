@@ -76,6 +76,10 @@
         "unavailable" : false
       }
     ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponentView.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/Sources\/LicensedComponentsUI\/LicensedComponentView.swift#L70"
+    },
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
