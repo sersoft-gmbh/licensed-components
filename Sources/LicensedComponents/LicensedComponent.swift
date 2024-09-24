@@ -1,5 +1,10 @@
+#if swift(>=6.0)
 // must be internal, cause the compiler generated resource_bundle_accessor.swift imports it as internal
 internal import Foundation
+#else
+// Older Swift versions don't have the implicit internal flag. Just import it there.
+import Foundation
+#endif
 
 /// Represents a licensed component.
 public struct LicensedComponent: Hashable, Identifiable {
