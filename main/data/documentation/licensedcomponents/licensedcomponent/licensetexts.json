@@ -156,6 +156,8 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Resolved",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text"
@@ -163,12 +165,16 @@
       "title" : "Structures"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/init(short:full:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/full",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/short"
@@ -176,6 +182,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Equatable-Implementations"

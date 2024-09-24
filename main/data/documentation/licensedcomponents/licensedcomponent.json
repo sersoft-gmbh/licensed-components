@@ -85,6 +85,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/LicensedComponents\/s8CopyableP",
         "doc:\/\/LicensedComponents\/SQ",
         "doc:\/\/LicensedComponents\/SH",
         "doc:\/\/LicensedComponents\/s12IdentifiableP",
@@ -105,24 +106,32 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Structures",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts"
       ],
       "title" : "Structures"
     },
     {
+      "anchor" : "Operators",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/==(_:_:)"
       ],
       "title" : "Operators"
     },
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/init(name:license:copyrightYears:copyrightHolders:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/baseTexts",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/copyrightHolders",
@@ -135,18 +144,23 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/hash(into:)"
       ],
       "title" : "Instance Methods"
     },
     {
+      "anchor" : "Enumerations",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum"
       ],
       "title" : "Enumerations"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/DynamicProperty-Implementations",
@@ -171,7 +185,7 @@
 "references": {
 "doc://LicensedComponents/7SwiftUI15DynamicPropertyP": {
   "identifier" : "doc:\/\/LicensedComponents\/7SwiftUI15DynamicPropertyP",
-  "title" : "SwiftUI.DynamicProperty",
+  "title" : "SwiftUICore.DynamicProperty",
   "type" : "unresolvable"
 },
 "doc://LicensedComponents/SH": {
@@ -962,6 +976,11 @@
 "doc://LicensedComponents/s12IdentifiableP": {
   "identifier" : "doc:\/\/LicensedComponents\/s12IdentifiableP",
   "title" : "Swift.Identifiable",
+  "type" : "unresolvable"
+},
+"doc://LicensedComponents/s8CopyableP": {
+  "identifier" : "doc:\/\/LicensedComponents\/s8CopyableP",
+  "title" : "Swift.Copyable",
   "type" : "unresolvable"
 }
 }

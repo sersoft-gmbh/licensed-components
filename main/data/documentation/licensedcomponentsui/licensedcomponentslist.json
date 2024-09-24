@@ -95,6 +95,19 @@
           ],
           "tokens" : [
             {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
               "kind" : "keyword",
               "text" : "struct"
             },
@@ -115,6 +128,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/LicensedComponentsUI\/s8SendableP",
         "doc:\/\/LicensedComponentsUI\/7SwiftUI4ViewP"
       ],
       "kind" : "relationships",
@@ -132,12 +146,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/init(components:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/body",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/components"
@@ -145,6 +163,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations"
@@ -168,7 +187,7 @@
 "references": {
 "doc://LicensedComponentsUI/7SwiftUI4ViewP": {
   "identifier" : "doc:\/\/LicensedComponentsUI\/7SwiftUI4ViewP",
-  "title" : "SwiftUI.View",
+  "title" : "SwiftUICore.View",
   "type" : "unresolvable"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI": {
@@ -368,6 +387,11 @@
   "title" : "init(components:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/init(components:)"
+},
+"doc://LicensedComponentsUI/s8SendableP": {
+  "identifier" : "doc:\/\/LicensedComponentsUI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
 }
 }
 }

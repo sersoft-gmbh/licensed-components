@@ -254,12 +254,16 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text\/init(_:hasPlaceholders:)"
       ],
       "title" : "Initializers"
     },
     {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text\/hasPlaceholders",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text\/string"
@@ -267,6 +271,7 @@
       "title" : "Instance Properties"
     },
     {
+      "anchor" : "Default-Implementations",
       "generated" : true,
       "identifiers" : [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text\/Equatable-Implementations"
