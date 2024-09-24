@@ -1,1 +1,1 @@
-@_exported import LicensedComponents
+@_exported public import LicensedComponents
