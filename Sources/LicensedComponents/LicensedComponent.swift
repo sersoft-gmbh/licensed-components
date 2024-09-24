@@ -1,4 +1,5 @@
-fileprivate import Foundation
+// must be internal, cause the compiler generated resource_bundle_accessor.swift imports it as internal
+internal import Foundation
 
 /// Represents a licensed component.
 public struct LicensedComponent: Hashable, Identifiable {
