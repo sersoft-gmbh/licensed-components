@@ -1,4 +1,4 @@
-import Foundation
+fileprivate import Foundation
 
 /// Represents a licensed component.
 public struct LicensedComponent: Hashable, Identifiable {
@@ -88,7 +88,7 @@ public struct LicensedComponent: Hashable, Identifiable {
 
 #if arch(arm64) || arch(x86_64)
 #if canImport(SwiftUI) && canImport(Combine)
-import SwiftUI
+public import SwiftUI
 
 extension LicensedComponent: DynamicProperty {
     public func update() {
@@ -224,8 +224,8 @@ extension LicensedComponent.LicenseTexts {
                                     fullHasPlaceholders: Bool = false) -> Self {
         let folderPath = bundledLicenseTextsDirectory.appendingPathComponent(directoryPath, isDirectory: true)
         do {
-            let short = try String(contentsOf: folderPath.appendingPathComponent("short.txt", isDirectory: false))
-            let full = hasFull ? try String(contentsOf: folderPath.appendingPathComponent("full.txt", isDirectory: false)) : nil
+            let short = try String(contentsOf: folderPath.appendingPathComponent("short.txt", isDirectory: false), encoding: .utf8)
+            let full = hasFull ? try String(contentsOf: folderPath.appendingPathComponent("full.txt", isDirectory: false), encoding: .utf8) : nil
             return .init(short: .init(short, hasPlaceholders: shortHasPlaceholders),
                          full: full.map { .init($0, hasPlaceholders: fullHasPlaceholders) })
         } catch {

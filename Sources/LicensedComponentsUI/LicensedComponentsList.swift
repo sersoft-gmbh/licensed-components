@@ -1,5 +1,5 @@
-import SwiftUI
-import LicensedComponents
+public import SwiftUI
+public import LicensedComponents
 
 /// Shows a list of licensed components, including showing details.
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)

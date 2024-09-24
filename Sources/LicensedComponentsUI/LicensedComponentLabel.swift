@@ -1,4 +1,4 @@
-import SwiftUI
+public import SwiftUI
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 public struct LicensedComponentLabel: View {

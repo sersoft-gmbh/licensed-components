@@ -1,5 +1,5 @@
-import SwiftUI
-import LicensedComponents
+public import SwiftUI
+public import LicensedComponents
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 public struct LicensedComponentView: View {
