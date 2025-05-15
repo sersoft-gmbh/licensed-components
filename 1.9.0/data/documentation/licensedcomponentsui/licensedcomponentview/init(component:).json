@@ -1,0 +1,246 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/init(component:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:20LicensedComponentsUI0A13ComponentViewV9componentAC0aB00aD0V_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "component"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+        "text" : "LicensedComponent"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LicensedComponentsUI"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "11.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "6.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponentView.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/tags\/1.9.0\/Sources\/LicensedComponentsUI\/LicensedComponentView.swift#L70"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(component:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "component"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+              "text" : "LicensedComponent"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/licensedcomponentsui\/licensedcomponentview\/init(component:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LicensedComponentsUI",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponentView"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponentView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponentView",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/init(component:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "component"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+      "text" : "LicensedComponent"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/init(component:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(component:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/init(component:)"
+}
+}
+}

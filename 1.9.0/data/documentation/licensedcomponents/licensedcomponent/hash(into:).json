@@ -1,0 +1,262 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/hash(into:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18LicensedComponents0A9ComponentV4hash4intoys6HasherVz_tF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hash"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "into"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "inout"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s6HasherV",
+        "text" : "Hasher"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LicensedComponents"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponent.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/tags\/1.9.0\/Sources\/LicensedComponents\/LicensedComponent.swift#L85"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "hash(into:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hash"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "into"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "hasher"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "inout"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s6HasherV",
+              "text" : "Hasher"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/licensedcomponents\/licensedcomponent\/hash(into:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LicensedComponents/documentation/LicensedComponents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LicensedComponents",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent": {
+  "abstract" : [
+    {
+      "text" : "Represents a licensed component.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/hash(into:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hash"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "into"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "inout"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s6HasherV",
+      "text" : "Hasher"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/hash(into:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hash(into:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/hash(into:)"
+}
+}
+}

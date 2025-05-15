@@ -1,0 +1,223 @@
+{
+  "abstract" : [
+    {
+      "text" : "The holders of the copyright. Example: ",
+      "type" : "text"
+    },
+    {
+      "code" : "\"ser.soft GmbH\"",
+      "type" : "codeVoice"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/copyrightHolders"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18LicensedComponents0A9ComponentV16copyrightHoldersSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "copyrightHolders"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LicensedComponents"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponent.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/tags\/1.9.0\/Sources\/LicensedComponents\/LicensedComponent.swift#L57"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "copyrightHolders"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "copyrightHolders"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/licensedcomponents\/licensedcomponent\/copyrightholders"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LicensedComponents/documentation/LicensedComponents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LicensedComponents",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent": {
+  "abstract" : [
+    {
+      "text" : "Represents a licensed component.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/copyrightHolders": {
+  "abstract" : [
+    {
+      "text" : "The holders of the copyright. Example: ",
+      "type" : "text"
+    },
+    {
+      "code" : "\"ser.soft GmbH\"",
+      "type" : "codeVoice"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "copyrightHolders"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/copyrightHolders",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "copyrightHolders",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/copyrightholders"
+}
+}
+}

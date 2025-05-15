@@ -1,0 +1,341 @@
+{
+  "abstract" : [
+    {
+      "text" : "A version of the GPL license.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/gpl(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18LicensedComponents0A9ComponentV7LicenseO3gplyA2E3GPLOcAEmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "gpl"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+        "text" : "LicensedComponent"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
+        "text" : "License"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO3GPLO",
+        "text" : "GPL"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LicensedComponents"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponent.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/tags\/1.9.0\/Sources\/LicensedComponents\/LicensedComponent.swift#L205"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "LicensedComponent.License.gpl(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "gpl"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+              "text" : "LicensedComponent"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
+              "text" : "License"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/GPL",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO3GPLO",
+              "text" : "GPL"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LicensedComponents/documentation/LicensedComponents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LicensedComponents",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent": {
+  "abstract" : [
+    {
+      "text" : "Represents a licensed component.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Describes a license.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "License"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "License"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.License",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum/GPL": {
+  "abstract" : [
+    {
+      "text" : "The GPL license versions.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GPL"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/GPL",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GPL"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.License.GPL",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum/gpl(_:)": {
+  "abstract" : [
+    {
+      "text" : "A version of the GPL license.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gpl"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+      "text" : "LicensedComponent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
+      "text" : "License"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO3GPLO",
+      "text" : "GPL"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/gpl(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "LicensedComponent.License.gpl(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl(_:)"
+}
+}
+}

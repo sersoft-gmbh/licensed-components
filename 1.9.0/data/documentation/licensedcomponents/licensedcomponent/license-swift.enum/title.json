@@ -1,0 +1,250 @@
+{
+  "abstract" : [
+    {
+      "text" : "The title of the license.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/title"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:18LicensedComponents0A9ComponentV7LicenseO5titleSSvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "title"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LicensedComponents"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "LicensedComponent.swift",
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/tags\/1.9.0\/Sources\/LicensedComponents\/LicensedComponent.swift#L211"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "title"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "title"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/title"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LicensedComponents/documentation/LicensedComponents": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LicensedComponents",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent": {
+  "abstract" : [
+    {
+      "text" : "Represents a licensed component.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Describes a license.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "License"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "License"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.License",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum"
+},
+"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum/title": {
+  "abstract" : [
+    {
+      "text" : "The title of the license.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "title",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/title"
+}
+}
+}
