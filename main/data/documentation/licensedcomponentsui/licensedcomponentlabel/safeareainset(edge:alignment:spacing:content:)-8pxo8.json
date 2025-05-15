@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel"
       ]
     ]
   },
@@ -383,6 +382,28 @@
             {
               "inlineContent" : [
                 {
+                  "text" : "Extra distance placed between the two views, or",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "nil to use the default amount of spacing.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "spacing"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
                   "text" : "The alignment guide used to position ",
                   "type" : "text"
                 },
@@ -403,28 +424,6 @@
             }
           ],
           "name" : "alignment"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "Extra distance placed between the two views, or",
-                  "type" : "text"
-                },
-                {
-                  "text" : " ",
-                  "type" : "text"
-                },
-                {
-                  "text" : "nil to use the default amount of spacing.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "spacing"
         },
         {
           "content" : [
@@ -666,17 +665,6 @@
   "title" : "LicensedComponentLabel",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/safeAreaInset(edge:alignment:spacing:content:)-8pxo8": {
   "abstract" : [

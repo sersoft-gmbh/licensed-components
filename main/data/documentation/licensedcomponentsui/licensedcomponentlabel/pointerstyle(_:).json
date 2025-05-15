@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel"
       ]
     ]
   },
@@ -223,6 +222,23 @@
         {
           "inlineContent" : [
             {
+              "text" : "Refer to ",
+              "type" : "text"
+            },
+            {
+              "code" : "PointerStyle",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " for a list of available pointer styles.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
               "text" : "For guidance on choosing an appropriate pointer style, refer to",
               "type" : "text"
             },
@@ -356,17 +372,6 @@
   "title" : "LicensedComponentLabel",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/pointerStyle(_:)": {
   "abstract" : [

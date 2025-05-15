@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList"
       ]
     ]
   },
@@ -800,17 +799,6 @@
   "title" : "LicensedComponentsList",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/searchable(text:tokens:suggestedTokens:placement:prompt:token:)-4tgrp": {
   "abstract" : [

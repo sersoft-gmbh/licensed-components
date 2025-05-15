@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel"
       ]
     ]
   },
@@ -469,6 +468,36 @@
             }
           ],
           "name" : "onCompletion"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "Result",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " indicating whether the operation succeeded or",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "failed.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "result"
         }
       ]
     },
@@ -801,17 +830,6 @@
   "title" : "LicensedComponentLabel",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/fileImporter(isPresented:allowedContentTypes:allowsMultipleSelection:onCompletion:)": {
   "abstract" : [

@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView"
       ]
     ]
   },
@@ -311,6 +310,46 @@
           ],
           "syntax" : null,
           "type" : "codeListing"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "It’s only possible to disallow handling events that activate the",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "containing window for views that allow it by default or that inherit",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "this behavior from their ancestors. Views that explicitly already",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "disallow this functionality can’t have it turned on.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
         }
       ],
       "kind" : "content"
@@ -379,17 +418,6 @@
   "title" : "LicensedComponentView",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/allowsWindowActivationEvents(_:)": {
   "abstract" : [

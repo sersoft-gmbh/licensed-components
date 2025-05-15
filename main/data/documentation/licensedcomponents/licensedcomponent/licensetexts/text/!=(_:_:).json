@@ -11,8 +11,7 @@
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text\/Equatable-Implementations"
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text"
       ]
     ]
   },
@@ -600,17 +599,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/!=(_:_:)"
-},
-"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/LicenseTexts/Text/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/licensetexts\/text\/equatable-implementations"
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/LicenseTexts/full": {
   "abstract" : [

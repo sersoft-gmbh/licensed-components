@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList"
       ]
     ]
   },
@@ -333,6 +332,28 @@
             {
               "inlineContent" : [
                 {
+                  "text" : "Text value for the additional accessibility",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "information. For example: “landscape.”",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "value"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
                   "text" : "Importance of the accessibility information.",
                   "type" : "text"
                 },
@@ -547,17 +568,6 @@
   "title" : "LicensedComponentsList",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/accessibilityCustomContent(_:_:importance:)-30s41": {
   "abstract" : [

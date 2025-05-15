@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel"
       ]
     ]
   },
@@ -337,6 +336,40 @@
     {
       "kind" : "parameters",
       "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The value to observe for changes. The value must conform",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "to the ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "doc:\/\/com.apple.documentation\/documentation\/Swift\/Equatable",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "protocol.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "id"
+        },
         {
           "content" : [
             {
@@ -842,17 +875,6 @@
   "title" : "LicensedComponentLabel",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/task(id:priority:_:)": {
   "abstract" : [

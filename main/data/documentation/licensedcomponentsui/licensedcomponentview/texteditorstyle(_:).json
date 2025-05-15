@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView"
       ]
     ]
   },
@@ -37,7 +36,15 @@
       },
       {
         "kind" : "text",
-        "text" : "(some "
+        "text" : "("
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
       },
       {
         "kind" : "typeIdentifier",
@@ -147,7 +154,15 @@
             },
             {
               "kind" : "text",
-              "text" : ": some "
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
             },
             {
               "kind" : "typeIdentifier",
@@ -245,17 +260,6 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentView\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/view-implementations"
-},
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/textEditorStyle(_:)": {
   "abstract" : [
     {
@@ -278,7 +282,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",

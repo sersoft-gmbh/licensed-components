@@ -3,8 +3,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/DynamicProperty-Implementations"
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent"
       ]
     ]
   },
@@ -41,7 +40,7 @@
     ],
     "remoteSource" : {
       "fileName" : "LicensedComponent.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/Sources\/LicensedComponents\/LicensedComponent.swift#L100"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/heads\/main\/Sources\/LicensedComponents\/LicensedComponent.swift#L100"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Method",
@@ -147,17 +146,6 @@
   "title" : "LicensedComponent",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent"
-},
-"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/DynamicProperty-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/DynamicProperty-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "DynamicProperty Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/dynamicproperty-implementations"
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/update()": {
   "abstract" : [

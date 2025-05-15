@@ -11,8 +11,7 @@
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
         "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/GPL",
-        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/GPL\/Equatable-Implementations"
+        "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/GPL"
       ]
     ]
   },
@@ -499,17 +498,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl\/!=(_:_:)"
-},
-"doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/License-swift.enum/GPL/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/GPL\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl\/equatable-implementations"
 }
 }
 }

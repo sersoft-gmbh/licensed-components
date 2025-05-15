@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList"
       ]
     ]
   },
@@ -162,6 +161,14 @@
         "deprecatedAt" : "100000.0",
         "introducedAt" : "10.15",
         "name" : "macOS",
+        "renamed" : "onLongPressGesture(minimumDuration:maximumDuration:perform:onPressingChanged:)",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "name" : "visionOS",
         "renamed" : "onLongPressGesture(minimumDuration:maximumDuration:perform:onPressingChanged:)",
         "unavailable" : false
       },
@@ -397,17 +404,6 @@
   "title" : "LicensedComponentsList",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/onLongPressGesture(minimumDuration:maximumDistance:pressing:perform:)": {
   "abstract" : [

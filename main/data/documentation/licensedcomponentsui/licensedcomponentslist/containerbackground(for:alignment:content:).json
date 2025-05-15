@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList"
       ]
     ]
   },
@@ -323,20 +322,6 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The container that will use the background.",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "container"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
                   "text" : "The alignment that the modifier uses to position the",
                   "type" : "text"
                 },
@@ -373,6 +358,20 @@
             }
           ],
           "name" : "alignment"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The container that will use the background.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "container"
         },
         {
           "content" : [
@@ -558,17 +557,6 @@
   "title" : "LicensedComponentsList",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentsList\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentslist\/view-implementations"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/containerBackground(for:alignment:content:)": {
   "abstract" : [

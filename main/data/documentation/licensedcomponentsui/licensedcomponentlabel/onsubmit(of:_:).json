@@ -9,8 +9,7 @@
     "paths" : [
       [
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations"
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel"
       ]
     ]
   },
@@ -54,7 +53,7 @@
       },
       {
         "kind" : "text",
-        "text" : ", (() -> "
+        "text" : ", () -> "
       },
       {
         "kind" : "typeIdentifier",
@@ -63,7 +62,7 @@
       },
       {
         "kind" : "text",
-        "text" : ")) -> "
+        "text" : ") -> "
       },
       {
         "kind" : "keyword",
@@ -204,7 +203,7 @@
             },
             {
               "kind" : "text",
-              "text" : " (() -> "
+              "text" : " () -> "
             },
             {
               "kind" : "typeIdentifier",
@@ -213,7 +212,7 @@
             },
             {
               "kind" : "text",
-              "text" : ")) -> "
+              "text" : ") -> "
             },
             {
               "kind" : "keyword",
@@ -542,17 +541,6 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/View-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/View-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "View Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/view-implementations"
-},
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onSubmit(of:_:)": {
   "abstract" : [
     {
@@ -592,7 +580,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", (() -> "
+      "text" : ", () -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -601,7 +589,7 @@
     },
     {
       "kind" : "text",
-      "text" : ")) -> "
+      "text" : ") -> "
     },
     {
       "kind" : "keyword",

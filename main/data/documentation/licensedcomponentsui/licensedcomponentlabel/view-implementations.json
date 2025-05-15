@@ -234,6 +234,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentMargins(_:for:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentShape(_:_:eoFill:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentShape(_:eoFill:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentToolbar(for:content:)-5ore1",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentToolbar(for:content:)-8t9yu",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentTransition(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contextMenu(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contextMenu(forSelectionType:menu:primaryAction:)",
@@ -254,6 +256,7 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/defaultScrollAnchor(_:for:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/deleteDisabled(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dialogIcon(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dialogPreventsAppTermination(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dialogSeverity(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dialogSuppressionToggle(_:isSuppressed:)-1xdhz",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dialogSuppressionToggle(_:isSuppressed:)-5649a",
@@ -273,7 +276,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/draggable(_:preview:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/drawingGroup(opaque:colorMode:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dropDestination(for:action:isTargeted:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dynamicTypeSize(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dynamicTypeSize(_:)-1euv7",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dynamicTypeSize(_:)-6d85l",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/edgesIgnoringSafeArea(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/environment(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/environment(_:_:)",
@@ -442,7 +446,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDestination(for:destination:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDestination(isPresented:destination:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDestination(item:destination:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:)-27x7u",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:)-p6qw",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:preview:)-5f8z6",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:preview:)-63rpn",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:preview:)-6uz6w",
@@ -468,7 +473,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onChange(of:perform:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onCommand(_:perform:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinueUserActivity(_:perform:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinuousHover(coordinateSpace:perform:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinuousHover(coordinateSpace:perform:)-1xjnc",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinuousHover(coordinateSpace:perform:)-6euey",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onCopyCommand(perform:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onCutCommand(perform:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onDeleteCommand(perform:)",
@@ -512,7 +518,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onScrollTargetVisibilityChange(idType:threshold:_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onScrollVisibilityChange(threshold:_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onSubmit(of:_:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:coordinateSpace:perform:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:coordinateSpace:perform:)-7axyh",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:coordinateSpace:perform:)-9cjod",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:perform:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/opacity(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/overlay(_:alignment:)",
@@ -534,9 +541,7 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/pointerStyle(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/pointerVisibility(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/popover(isPresented:attachmentAnchor:arrowEdge:content:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/popover(isPresented:attachmentAnchor:content:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/popover(item:attachmentAnchor:arrowEdge:content:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/popover(item:attachmentAnchor:content:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/position(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/position(x:y:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/preference(key:value:)",
@@ -552,6 +557,7 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentationDetents(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentationDetents(_:selection:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentationDragIndicator(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentationPreventsAppTermination(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentationSizing(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentedWindowStyle(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentedWindowToolbarStyle(_:)",
@@ -597,7 +603,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/scrollTargetLayout(isEnabled:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/scrollTransition(_:axis:transition:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/scrollTransition(topLeading:bottomTrailing:axis:transition:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchCompletion(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchCompletion(_:)-2zyeq",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchCompletion(_:)-6j1f",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchFocused(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchFocused(_:equals:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchPresentationToolbarBehavior(_:)",
@@ -680,16 +687,19 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/textScale(_:isEnabled:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/textSelection(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/textSelectionAffinity(_:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/tint(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/tint(_:)-3itgm",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/tint(_:)-8hjoo",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toggleStyle(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbar(_:for:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbar(content:)-39j36",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbar(content:)-7ykv7",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbar(id:content:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbar(removing:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackground(_:for:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackground(_:for:)-3glid",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackground(_:for:)-4dlhe",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackgroundVisibility(_:for:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarColorScheme(_:for:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarForegroundStyle(_:for:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarItemHidden(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarRole(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarTitleDisplayMode(_:)",
@@ -708,7 +718,8 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transformEffect(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transformEnvironment(_:transform:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transformPreference(_:_:)",
-        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transition(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transition(_:)-2sbs1",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transition(_:)-98hyf",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/truncationMode(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/typeSelectEquivalent(_:)-5o3u4",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/typeSelectEquivalent(_:)-5rjp4",
@@ -725,6 +736,7 @@
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/windowMinimizeBehavior(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/windowResizeBehavior(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/windowToolbarFullScreenVisibility(_:)",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/writingToolsAffordanceVisibility(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/writingToolsBehavior(_:)",
         "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/zIndex(_:)"
       ],
@@ -19558,6 +19570,194 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/contentshape(_:eofill:)"
 },
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/contentToolbar(for:content:)-5ore1": {
+  "abstract" : [
+    {
+      "text" : "Populates the toolbar of the specified content view type with",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the views you provide.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentToolbar"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23ContentToolbarPlacementV",
+      "text" : "ContentToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentToolbar(for:content:)-5ore1",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentToolbar(for:content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/contenttoolbar(for:content:)-5ore1"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/contentToolbar(for:content:)-8t9yu": {
+  "abstract" : [
+    {
+      "text" : "Populates the toolbar of the specified content view type with",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the views you provide.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contentToolbar"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23ContentToolbarPlacementV",
+      "text" : "ContentToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "content"
+    },
+    {
+      "kind" : "text",
+      "text" : ": () -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Content"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/contentToolbar(for:content:)-8t9yu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contentToolbar(for:content:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/contenttoolbar(for:content:)-8t9yu"
+},
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/contentTransition(_:)": {
   "abstract" : [
     {
@@ -21031,6 +21231,68 @@
   "title" : "dialogIcon(_:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/dialogicon(_:)"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/dialogPreventsAppTermination(_:)": {
+  "abstract" : [
+    {
+      "text" : "Whether the alert or confirmation dialog prevents the app",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "from being quit\/terminated by the system or app termination menu item.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dialogPreventsAppTermination"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dialogPreventsAppTermination(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dialogPreventsAppTermination(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/dialogpreventsapptermination(_:)"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/dialogSeverity(_:)": {
   "abstract" : [
@@ -22797,7 +23059,68 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/dropdestination(for:action:istargeted:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/dynamicTypeSize(_:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/dynamicTypeSize(_:)-1euv7": {
+  "abstract" : [
+    {
+      "text" : "Limits the Dynamic Type size within the view to the given range.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dynamicTypeSize"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dynamicTypeSize(_:)-1euv7",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dynamicTypeSize(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/dynamictypesize(_:)-1euv7"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/dynamicTypeSize(_:)-6d85l": {
   "abstract" : [
     {
       "text" : "Sets the Dynamic Type size within the view to the given value.",
@@ -22844,12 +23167,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dynamicTypeSize(_:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/dynamicTypeSize(_:)-6d85l",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "dynamicTypeSize(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/dynamictypesize(_:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/dynamictypesize(_:)-6d85l"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/edgesIgnoringSafeArea(_:)": {
   "abstract" : [
@@ -33085,7 +33408,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33110,7 +33441,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33212,7 +33551,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33254,7 +33601,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -33279,7 +33634,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -35243,7 +35606,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -35339,7 +35710,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -35391,7 +35770,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -37076,7 +37463,68 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/navigationdestination(item:destination:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/navigationDocument(_:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/navigationDocument(_:)-27x7u": {
+  "abstract" : [
+    {
+      "text" : "Configures the view’s document for purposes of navigation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationDocument"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "D"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:)-27x7u",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationDocument(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/navigationdocument(_:)-27x7u"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/navigationDocument(_:)-p6qw": {
   "abstract" : [
     {
       "text" : "Configures the view’s document for purposes of navigation.",
@@ -37123,12 +37571,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/navigationDocument(_:)-p6qw",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "navigationDocument(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/navigationdocument(_:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/navigationdocument(_:)-p6qw"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/navigationDocument(_:preview:)-5f8z6": {
   "abstract" : [
@@ -38277,7 +38725,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -39041,7 +39497,111 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/oncontinueuseractivity(_:perform:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onContinuousHover(coordinateSpace:perform:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onContinuousHover(coordinateSpace:perform:)-1xjnc": {
+  "abstract" : [
+    {
+      "text" : "Adds an action to perform when the pointer enters, moves within, and",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "exits the view’s bounds.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onContinuousHover"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23CoordinateSpaceProtocolP",
+      "text" : "CoordinateSpaceProtocol"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10HoverPhaseO",
+      "text" : "HoverPhase"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinuousHover(coordinateSpace:perform:)-1xjnc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onContinuousHover(coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/oncontinuoushover(coordinatespace:perform:)-1xjnc"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onContinuousHover(coordinateSpace:perform:)-6euey": {
   "abstract" : [
     {
       "text" : "Adds an action to perform when the pointer enters, moves within, and",
@@ -39131,12 +39691,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinuousHover(coordinateSpace:perform:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onContinuousHover(coordinateSpace:perform:)-6euey",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "onContinuousHover(coordinateSpace:perform:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/oncontinuoushover(coordinatespace:perform:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/oncontinuoushover(coordinatespace:perform:)-6euey"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onCopyCommand(perform:)": {
   "abstract" : [
@@ -43393,7 +43953,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", (() -> "
+      "text" : ", () -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -43402,7 +43962,7 @@
     },
     {
       "kind" : "text",
-      "text" : ")) -> "
+      "text" : ") -> "
     },
     {
       "kind" : "keyword",
@@ -43425,7 +43985,128 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/onsubmit(of:_:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onTapGesture(count:coordinateSpace:perform:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onTapGesture(count:coordinateSpace:perform:)-7axyh": {
+  "abstract" : [
+    {
+      "text" : "Adds an action to perform when this view recognizes a tap gesture,",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "and provides the action with the location of the interaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "onTapGesture"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "count"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "coordinateSpace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI23CoordinateSpaceProtocolP",
+      "text" : "CoordinateSpaceProtocol"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "perform"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGPoint",
+      "text" : "CGPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:coordinateSpace:perform:)-7axyh",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "onTapGesture(count:coordinateSpace:perform:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/ontapgesture(count:coordinatespace:perform:)-7axyh"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onTapGesture(count:coordinateSpace:perform:)-9cjod": {
   "abstract" : [
     {
       "text" : "Adds an action to perform when this view recognizes a tap gesture,",
@@ -43532,12 +44213,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:coordinateSpace:perform:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/onTapGesture(count:coordinateSpace:perform:)-9cjod",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "onTapGesture(count:coordinateSpace:perform:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/ontapgesture(count:coordinatespace:perform:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/ontapgesture(count:coordinatespace:perform:)-9cjod"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/onTapGesture(count:perform:)": {
   "abstract" : [
@@ -44850,7 +45531,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">(some "
+      "text" : ">("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -44892,7 +45581,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -44987,7 +45684,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">(some "
+      "text" : ">("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45004,7 +45709,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45046,7 +45759,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -45362,7 +46083,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -45400,118 +46121,6 @@
   "title" : "popover(isPresented:attachmentAnchor:arrowEdge:content:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/popover(ispresented:attachmentanchor:arrowedge:content:)"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/popover(isPresented:attachmentAnchor:content:)": {
-  "abstract" : [
-    {
-      "text" : "Presents a popover when a given condition is true.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "popover"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "isPresented"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI7BindingV",
-      "text" : "Binding"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ">, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "attachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
-      "text" : "PopoverAttachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "content"
-    },
-    {
-      "kind" : "text",
-      "text" : ": () -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "some"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI4ViewP",
-      "text" : "View"
-    }
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/popover(isPresented:attachmentAnchor:content:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "popover(isPresented:attachmentAnchor:content:)",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/popover(ispresented:attachmentanchor:content:)"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/popover(item:attachmentAnchor:arrowEdge:content:)": {
   "abstract" : [
@@ -45618,7 +46227,7 @@
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -45664,141 +46273,6 @@
   "title" : "popover(item:attachmentAnchor:arrowEdge:content:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/popover(item:attachmentanchor:arrowedge:content:)"
-},
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/popover(item:attachmentAnchor:content:)": {
-  "abstract" : [
-    {
-      "text" : "Presents a popover using the given item as a data source for the",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "popover’s content.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "popover"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Item"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "genericParameter",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ">("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "item"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI7BindingV",
-      "text" : "Binding"
-    },
-    {
-      "kind" : "text",
-      "text" : "<"
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Item"
-    },
-    {
-      "kind" : "text",
-      "text" : "?>, "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "attachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI23PopoverAttachmentAnchorO",
-      "text" : "PopoverAttachmentAnchor"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "content"
-    },
-    {
-      "kind" : "text",
-      "text" : ": ("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Item"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Content"
-    },
-    {
-      "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "some"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7SwiftUI4ViewP",
-      "text" : "View"
-    }
-  ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/popover(item:attachmentAnchor:content:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "popover(item:attachmentAnchor:content:)",
-  "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/popover(item:attachmentanchor:content:)"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/position(_:)": {
   "abstract" : [
@@ -46873,6 +47347,68 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/presentationdragindicator(_:)"
 },
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/presentationPreventsAppTermination(_:)": {
+  "abstract" : [
+    {
+      "text" : "Whether a presentation prevents the app from being terminated\/quit",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "by the system or app termination menu item.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "presentationPreventsAppTermination"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/presentationPreventsAppTermination(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "presentationPreventsAppTermination(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/presentationpreventsapptermination(_:)"
+},
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/presentationSizing(_:)": {
   "abstract" : [
     {
@@ -46895,7 +47431,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49477,7 +50021,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49723,7 +50275,15 @@
     },
     {
       "kind" : "text",
-      "text" : "<(some "
+      "text" : "<("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49794,7 +50354,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -49994,7 +50562,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -50157,7 +50733,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -50189,7 +50773,76 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/scrolltransition(topleading:bottomtrailing:axis:transition:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/searchCompletion(_:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/searchCompletion(_:)-2zyeq": {
+  "abstract" : [
+    {
+      "text" : "Associates a search token with the value of this view when used",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "as a search suggestion.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "searchCompletion"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchCompletion(_:)-2zyeq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "searchCompletion(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/searchcompletion(_:)-2zyeq"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/searchCompletion(_:)-6j1f": {
   "abstract" : [
     {
       "text" : "Associates a fully formed string with the value of this view when used",
@@ -50244,12 +50897,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchCompletion(_:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/searchCompletion(_:)-6j1f",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "searchCompletion(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/searchcompletion(_:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/searchcompletion(_:)-6j1f"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/searchFocused(_:)": {
   "abstract" : [
@@ -51033,7 +51686,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51248,7 +51909,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51420,7 +52089,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51463,7 +52140,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51652,7 +52337,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51841,7 +52534,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -51987,7 +52688,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -52030,7 +52739,15 @@
     },
     {
       "kind" : "text",
-      "text" : ">) -> some "
+      "text" : ">) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -55785,7 +56502,10 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/sectionActions(content:)": {
   "abstract" : [
-
+    {
+      "text" : "Adds custom actions to a section.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -58858,7 +59578,15 @@
     },
     {
       "kind" : "text",
-      "text" : "(some "
+      "text" : "("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -59596,7 +60324,7 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/textselectionaffinity(_:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/tint(_:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/tint(_:)-3itgm": {
   "abstract" : [
     {
       "text" : "Sets the tint color within this view.",
@@ -59643,12 +60371,73 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/tint(_:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/tint(_:)-3itgm",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "tint(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/tint(_:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/tint(_:)-3itgm"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/tint(_:)-8hjoo": {
+  "abstract" : [
+    {
+      "text" : "Sets the tint within this view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tint"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/tint(_:)-8hjoo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tint(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/tint(_:)-8hjoo"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toggleStyle(_:)": {
   "abstract" : [
@@ -60077,7 +60866,93 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/toolbar(removing:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toolbarBackground(_:for:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toolbarBackground(_:for:)-3glid": {
+  "abstract" : [
+    {
+      "text" : "Specifies the preferred shape style of the background of a bar managed",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "by SwiftUI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarBackground"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackground(_:for:)-3glid",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarBackground(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/toolbarbackground(_:for:)-3glid"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toolbarBackground(_:for:)-4dlhe": {
   "abstract" : [
     {
       "text" : "Specifies the preferred visibility of backgrounds on a bar managed by",
@@ -60150,12 +61025,12 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackground(_:for:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarBackground(_:for:)-4dlhe",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "toolbarBackground(_:for:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/toolbarbackground(_:for:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/toolbarbackground(_:for:)-4dlhe"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toolbarBackgroundVisibility(_:for:)": {
   "abstract" : [
@@ -60306,6 +61181,84 @@
   "title" : "toolbarColorScheme(_:for:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/toolbarcolorscheme(_:for:)"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toolbarForegroundStyle(_:for:)": {
+  "abstract" : [
+    {
+      "text" : "Specifies the preferred foreground style of bars managed by SwiftUI.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toolbarForegroundStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI16ToolbarPlacementV",
+      "text" : "ToolbarPlacement"
+    },
+    {
+      "kind" : "text",
+      "text" : "...) -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/toolbarForegroundStyle(_:for:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toolbarForegroundStyle(_:for:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/toolbarforegroundstyle(_:for:)"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/toolbarItemHidden(_:)": {
   "abstract" : [
@@ -61209,7 +62162,15 @@
     },
     {
       "kind" : "text",
-      "text" : ": some "
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -61730,7 +62691,7 @@
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/transformpreference(_:_:)"
 },
-"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/transition(_:)": {
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/transition(_:)-2sbs1": {
   "abstract" : [
     {
       "text" : "Associates a transition with the view.",
@@ -61777,12 +62738,73 @@
       "text" : "View"
     }
   ],
-  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transition(_:)",
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transition(_:)-2sbs1",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "transition(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/transition(_:)"
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/transition(_:)-2sbs1"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/transition(_:)-98hyf": {
+  "abstract" : [
+    {
+      "text" : "Associates a transition with the view.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transition"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/transition(_:)-98hyf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transition(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/transition(_:)-98hyf"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/truncationMode(_:)": {
   "abstract" : [
@@ -62573,7 +63595,15 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> some "
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -62914,6 +63944,68 @@
   "title" : "windowToolbarFullScreenVisibility(_:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/windowtoolbarfullscreenvisibility(_:)"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/writingToolsAffordanceVisibility(_:)": {
+  "abstract" : [
+    {
+      "text" : "Specifies whether the system should show the Writing Tools affordance",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "for text input views affected by the environment.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "writingToolsAffordanceVisibility"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI10VisibilityO",
+      "text" : "Visibility"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponentLabel\/writingToolsAffordanceVisibility(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "writingToolsAffordanceVisibility(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentlabel\/writingtoolsaffordancevisibility(_:)"
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/writingToolsBehavior(_:)": {
   "abstract" : [
