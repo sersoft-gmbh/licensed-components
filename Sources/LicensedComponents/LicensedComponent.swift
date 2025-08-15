@@ -92,8 +92,7 @@ public struct LicensedComponent: Hashable, Identifiable {
     }
 }
 
-#if arch(arm64) || arch(x86_64)
-#if canImport(SwiftUI) && canImport(Combine)
+#if canImport(SwiftUI)
 public import SwiftUI
 
 extension LicensedComponent: DynamicProperty {
@@ -102,7 +101,6 @@ extension LicensedComponent: DynamicProperty {
         _ = _storage.resolvedTexts
     }
 }
-#endif
 #endif
 
 extension LicensedComponent {
