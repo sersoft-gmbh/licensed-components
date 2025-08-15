@@ -1,5 +1,9 @@
 #if !os(macOS)
+#if swift(>=6)
 import SwiftUI
+#else
+public import SwiftUI
+#endif
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 struct ComponentInlineDetails: View {
