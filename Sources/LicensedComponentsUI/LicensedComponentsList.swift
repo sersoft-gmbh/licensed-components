@@ -20,7 +20,7 @@ public struct LicensedComponentsList: View {
                     destination: LicensedComponentView(component: component),
                     label: { LicensedComponentLabel(component: component) }
                 )
-#else
+#elseif compiler(>=6.0) // currently needed to work around a Swift 6.0 bug
                 HStack {
                     LicensedComponentLabel(component: component)
                     Spacer()
