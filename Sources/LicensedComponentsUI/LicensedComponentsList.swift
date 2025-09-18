@@ -34,13 +34,18 @@ public struct LicensedComponentsList: View {
                                 : .zero
                             )
                     })
-                    .animation(.default,
-                               value: expandedComponents.contains(component))
+                    .animation(.default, value: expandedComponents.contains(component))
                 }
                 if expandedComponents.contains(component) {
+#if compiler(>=6.2)
+                    unsafe ComponentInlineDetails(component: component)
+                        .listRowBackground(Color.gray.opacity(0.35))
+                        .transition(.opacity)
+#else
                     ComponentInlineDetails(component: component)
                         .listRowBackground(Color.gray.opacity(0.35))
                         .transition(.opacity)
+#endif
                 }
 #endif
             }

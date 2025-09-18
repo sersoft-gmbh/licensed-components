@@ -1,10 +1,5 @@
-#if swift(>=6.0)
 // must be internal, cause the compiler generated resource_bundle_accessor.swift imports it as internal
 internal import Foundation
-#else
-// Older Swift versions don't have the implicit internal flag. Just import it there.
-import Foundation
-#endif
 
 /// Represents a licensed component.
 public struct LicensedComponent: Hashable, Identifiable {
@@ -25,10 +20,28 @@ public struct LicensedComponent: Hashable, Identifiable {
         @usableFromInline
         let details: _CopyrightDetails
 
+        // manually implemented lazy for testing (and future mutex locking)
+        private(set) var _baseTexts: LicenseTexts?
+        private(set) var _resolvedTexts: LicenseTexts.Resolved?
+
         @usableFromInline
-        private(set) lazy var baseTexts = license._baseTexts
+        var baseTexts: LicenseTexts {
+            if let texts = _baseTexts {
+                return texts
+            }
+            let texts = license._baseTexts
+            _baseTexts = texts
+            return texts
+        }
         @usableFromInline
-        private(set) lazy var resolvedTexts = baseTexts._resolve(with: details)
+        var resolvedTexts: LicenseTexts.Resolved {
+            if let texts = _resolvedTexts {
+                return texts
+            }
+            let texts = baseTexts._resolve(with: details)
+            _resolvedTexts = texts
+            return texts
+        }
 
         init(license: License, details: _CopyrightDetails) {
             self.license = license

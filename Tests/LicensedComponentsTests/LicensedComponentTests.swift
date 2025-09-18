@@ -1,19 +1,28 @@
-import XCTest
+import Foundation
+import Testing
 @testable import LicensedComponents
+#if canImport(SwiftUI)
+fileprivate let swiftUIAvailable = true
+#else
+fileprivate let swiftUIAvailable = false
+#endif
 
-final class LicensedComponentTests: XCTestCase {
-    func testCreation() {
+@Suite
+struct LicensedComponentTests {
+    @Test
+    func creation() {
         let component = LicensedComponent(name: "Test Component",
                                           license: .apache(.v2),
                                           copyrightYears: "2020-2021",
                                           copyrightHolders: "Tester")
-        XCTAssertEqual(component.name, "Test Component")
-        XCTAssertEqual(component.license, .apache(.v2))
-        XCTAssertEqual(component.copyrightYears, "2020-2021")
-        XCTAssertEqual(component.copyrightHolders, "Tester")
+        #expect(component.name == "Test Component")
+        #expect(component.license == .apache(.v2))
+        #expect(component.copyrightYears == "2020-2021")
+        #expect(component.copyrightHolders == "Tester")
     }
 
-    func testHashableConformance() {
+    @Test
+    func hashableConformance() {
         let component = LicensedComponent(name: "Test Component",
                                           license: .apache(.v2),
                                           copyrightYears: "2020-2021",
@@ -22,90 +31,93 @@ final class LicensedComponentTests: XCTestCase {
                                            license: .apache(.v2),
                                            copyrightYears: "2020-2021",
                                            copyrightHolders: "Tester")
-        XCTAssertEqual(component, component2)
-        XCTAssertEqual(component.hashValue, component2.hashValue)
+        #expect(component == component2)
+        #expect(component.hashValue == component2.hashValue)
     }
 
-    func testIdentifiableConformance() {
+    @Test
+    func identifiableConformance() {
         let component = LicensedComponent(name: "Test Component",
                                           license: .apache(.v2),
                                           copyrightYears: "2020-2021",
                                           copyrightHolders: "Tester")
-        XCTAssertEqual(component.id as? LicensedComponent, component)
+        #expect(component.id as? LicensedComponent == component)
     }
 
-    func testDynamicPropertyConformance() throws {
-        #if canImport(SwiftUI) && canImport(Combine)
+    @Test(.enabled(if: swiftUIAvailable))
+    func dynamicPropertyConformance() throws {
+#if canImport(SwiftUI)
         let component = LicensedComponent(name: "Test Component",
                                           license: .apache(.v2),
                                           copyrightYears: "2020-2021",
                                           copyrightHolders: "Tester")
         component.update()
-        XCTAssertNotNil(component._storage.resolvedTexts)
-        #else
-        throw XCTSkip("API is unavailable on this platform.")
-        #endif
+        #expect(component._storage._resolvedTexts != nil)
+#endif
     }
 
-    func testBundledLicences() {
+    @Test
+    func nundledLicences() {
         let mit = LicensedComponent(name: "Test Component",
                                     license: .mit,
                                     copyrightYears: "2020-2021",
                                     copyrightHolders: "Tester")
-        XCTAssertEqual(mit.license.title, "MIT")
-        XCTAssertTrue(mit.baseTexts.short.hasPlaceholders)
-        XCTAssertFalse(mit.baseTexts.short.string.isEmpty)
-        XCTAssertNil(mit.baseTexts.full)
+        #expect(mit.license.title == "MIT")
+        #expect(mit.baseTexts.short.hasPlaceholders)
+        #expect(!mit.baseTexts.short.string.isEmpty)
+        #expect(mit.baseTexts.full == nil)
 
         let apacheV2 = LicensedComponent(name: "Test Component",
                                     license: .apache(.v2),
                                     copyrightYears: "2020-2021",
                                     copyrightHolders: "Tester")
-        XCTAssertEqual(apacheV2.license.title, "Apache v2")
-        XCTAssertTrue(apacheV2.baseTexts.short.hasPlaceholders)
-        XCTAssertFalse(apacheV2.baseTexts.short.string.isEmpty)
-        XCTAssertNotNil(apacheV2.baseTexts.full)
-        XCTAssertEqual(apacheV2.baseTexts.full?.string.isEmpty, false)
-        XCTAssertEqual(apacheV2.baseTexts.full?.hasPlaceholders, false)
+        #expect(apacheV2.license.title == "Apache v2")
+        #expect(apacheV2.baseTexts.short.hasPlaceholders)
+        #expect(!apacheV2.baseTexts.short.string.isEmpty)
+        #expect(apacheV2.baseTexts.full != nil)
+        #expect(apacheV2.baseTexts.full?.string.isEmpty == false)
+        #expect(apacheV2.baseTexts.full?.hasPlaceholders == false)
 
         let bsd3Clause = LicensedComponent(name: "Test Component",
                                            license: .bsd(.threeClause),
                                            copyrightYears: "2020-2021",
                                            copyrightHolders: "Tester")
-        XCTAssertEqual(bsd3Clause.license.title, "BSD 3-Clause")
-        XCTAssertTrue(bsd3Clause.baseTexts.short.hasPlaceholders)
-        XCTAssertFalse(bsd3Clause.baseTexts.short.string.isEmpty)
-        XCTAssertNil(bsd3Clause.baseTexts.full)
+        #expect(bsd3Clause.license.title == "BSD 3-Clause")
+        #expect(bsd3Clause.baseTexts.short.hasPlaceholders)
+        #expect(!bsd3Clause.baseTexts.short.string.isEmpty)
+        #expect(bsd3Clause.baseTexts.full == nil)
 
         let gplV3 = LicensedComponent(name: "Test Component",
                                     license: .gpl(.v3),
                                     copyrightYears: "2020-2021",
                                     copyrightHolders: "Tester")
-        XCTAssertEqual(gplV3.license.title, "GPL v3")
-        XCTAssertTrue(gplV3.baseTexts.short.hasPlaceholders)
-        XCTAssertFalse(gplV3.baseTexts.short.string.isEmpty)
-        XCTAssertNotNil(gplV3.baseTexts.full)
-        XCTAssertEqual(gplV3.baseTexts.full?.string.isEmpty, false)
-        XCTAssertEqual(gplV3.baseTexts.full?.hasPlaceholders, false)
+        #expect(gplV3.license.title == "GPL v3")
+        #expect(gplV3.baseTexts.short.hasPlaceholders)
+        #expect(!gplV3.baseTexts.short.string.isEmpty)
+        #expect(gplV3.baseTexts.full != nil)
+        #expect(gplV3.baseTexts.full?.string.isEmpty == false)
+        #expect(gplV3.baseTexts.full?.hasPlaceholders == false)
     }
 
-    func testCustomLicense() {
+    @Test
+    func customLicense() {
         let customTexts = LicensedComponent.LicenseTexts(short: .init("%year% anyway", hasPlaceholders: true),
                                                         full: .init("Nope", hasPlaceholders: false))
         let custom = LicensedComponent(name: "Test Component",
                                     license: .custom(title: "Custom", customTexts),
                                     copyrightYears: "2020-2021",
                                     copyrightHolders: "Tester")
-        XCTAssertEqual(custom.license.title, "Custom")
-        XCTAssertEqual(custom.baseTexts, customTexts)
+        #expect(custom.license.title == "Custom")
+        #expect(custom.baseTexts == customTexts)
     }
 
-    func testTextResolving() {
+    @Test
+    func textResolving() {
         let customTexts = LicensedComponent.LicenseTexts(short: .init("%year% anyway", hasPlaceholders: true), full: nil)
         let custom = LicensedComponent(name: "Test Component",
                                     license: .custom(title: "Custom", customTexts),
                                     copyrightYears: "2020-2021",
                                     copyrightHolders: "Tester")
-        XCTAssertFalse(custom.resolvedTexts.short.contains("%year%"))
+        #expect(!custom.resolvedTexts.short.contains("%year%"))
     }
 }
