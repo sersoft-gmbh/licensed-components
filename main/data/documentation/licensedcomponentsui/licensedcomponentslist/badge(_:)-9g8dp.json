@@ -242,7 +242,7 @@
               "type" : "text"
             },
             {
-              "text" : "appear only in list rows, tab bars, and menus.",
+              "text" : "appear in list rows, tab bars, toolbar items, and menus.",
               "type" : "text"
             }
           ],

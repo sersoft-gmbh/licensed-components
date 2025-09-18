@@ -123,6 +123,7 @@
     {
       "identifiers" : [
         "doc:\/\/LicensedComponentsUI\/s8SendableP",
+        "doc:\/\/LicensedComponentsUI\/s16SendableMetatypeP",
         "doc:\/\/LicensedComponentsUI\/7SwiftUI4ViewP"
       ],
       "kind" : "relationships",
@@ -350,6 +351,11 @@
   "title" : "init(component:)",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponentsui\/licensedcomponentview\/init(component:)"
+},
+"doc://LicensedComponentsUI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/LicensedComponentsUI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://LicensedComponentsUI/s8SendableP": {
   "identifier" : "doc:\/\/LicensedComponentsUI\/s8SendableP",

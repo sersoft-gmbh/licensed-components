@@ -460,7 +460,7 @@
             "    }",
             "    .scrollTargetLayout()",
             "}",
-            ".scrollPosition($scrolledID)"
+            ".scrollPosition($position)"
           ],
           "syntax" : null,
           "type" : "codeListing"
@@ -768,7 +768,7 @@
             "    }",
             "    .scrollTargetLayout()",
             "}",
-            ".scrollPosition($scrolledID, anchor: .bottom)"
+            ".scrollPosition($position, anchor: .bottom)"
           ],
           "syntax" : null,
           "type" : "codeListing"

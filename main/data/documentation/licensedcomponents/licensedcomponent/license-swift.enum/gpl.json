@@ -48,7 +48,7 @@
     ],
     "remoteSource" : {
       "fileName" : "LicensedComponent.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/heads\/main\/Sources\/LicensedComponents\/LicensedComponent.swift#L191"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/heads\/main\/Sources\/LicensedComponents\/LicensedComponent.swift#L204"
     },
     "role" : "symbol",
     "roleHeading" : "Enumeration",
@@ -89,7 +89,8 @@
       "identifiers" : [
         "doc:\/\/LicensedComponents\/SQ",
         "doc:\/\/LicensedComponents\/SH",
-        "doc:\/\/LicensedComponents\/s8SendableP"
+        "doc:\/\/LicensedComponents\/s8SendableP",
+        "doc:\/\/LicensedComponents\/s16SendableMetatypeP"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -297,6 +298,11 @@
   "title" : "LicensedComponent.License.GPL.v3",
   "type" : "topic",
   "url" : "\/documentation\/licensedcomponents\/licensedcomponent\/license-swift.enum\/gpl\/v3"
+},
+"doc://LicensedComponents/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/LicensedComponents\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
 },
 "doc://LicensedComponents/s8SendableP": {
   "identifier" : "doc:\/\/LicensedComponents\/s8SendableP",

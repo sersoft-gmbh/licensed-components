@@ -475,7 +475,7 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "accessibilityAdditionalContent",
+                  "code" : "accessibilityCustomContent",
                   "type" : "codeVoice"
                 },
                 {

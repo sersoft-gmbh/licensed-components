@@ -441,10 +441,6 @@
               "type" : "text"
             },
             {
-              "text" : "the ",
-              "type" : "text"
-            },
-            {
               "code" : "binding",
               "type" : "codeVoice"
             },

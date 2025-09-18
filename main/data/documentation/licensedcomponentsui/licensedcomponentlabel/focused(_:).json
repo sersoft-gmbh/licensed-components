@@ -360,10 +360,6 @@
               "type" : "text"
             },
             {
-              "text" : "the ",
-              "type" : "text"
-            },
-            {
               "code" : "condition",
               "type" : "codeVoice"
             },
