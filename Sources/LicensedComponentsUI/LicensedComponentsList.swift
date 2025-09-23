@@ -16,7 +16,7 @@ public struct LicensedComponentsList: View {
         List {
             ForEach(components) { component in
 // if compiler(>=6.0) currently needed to work around a Swift 6.0 bug
-#if compiler(>=6.0) && os(macOS) || os(watchOS)
+#if compiler(>=6.0) && (os(macOS) || os(watchOS))
                 NavigationLink(
                     destination: LicensedComponentView(component: component),
                     label: { LicensedComponentLabel(component: component) }
