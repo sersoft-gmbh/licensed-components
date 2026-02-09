@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -333,7 +333,7 @@
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/fileDialogConfirmationLabel(_:)-991pv": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {

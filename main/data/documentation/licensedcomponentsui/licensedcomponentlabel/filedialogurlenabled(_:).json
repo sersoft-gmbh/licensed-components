@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -329,7 +329,7 @@
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentLabel/fileDialogURLEnabled(_:)": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {

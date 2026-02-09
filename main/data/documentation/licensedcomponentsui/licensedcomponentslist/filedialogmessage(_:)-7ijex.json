@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -302,7 +302,7 @@
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/fileDialogMessage(_:)-7ijex": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {

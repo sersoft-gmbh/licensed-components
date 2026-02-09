@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
@@ -330,7 +330,7 @@
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/fileDialogConfirmationLabel(_:)-7dqmp": {
   "abstract" : [
     {
-      "text" : "On macOS, configures the the ",
+      "text" : "On macOS, configures the ",
       "type" : "text"
     },
     {
