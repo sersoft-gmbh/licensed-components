@@ -90,38 +90,23 @@ fileprivate extension View {
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
 struct LicensedComponentView_Previews: PreviewProvider {
-    static var _v1: some View {
+    static var details: some View {
         LicensedComponentView(component: .init(
             name: "Test Component",
-            license: .mit,
+            license: .apache(.v2),
             copyrightYears: "2020-2021",
             copyrightHolders: "This guy"
-        ))
-    }
-
-    static var _v2: some View {
-        LicensedComponentView(component: .init(
-            name: "Something else",
-            license: .apache(.v2),
-            copyrightYears: "2020",
-            copyrightHolders: "Another guy"
         ))
     }
 
     static var previews: some View {
         if #available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *) {
             NavigationStack {
-                _v1
-            }
-            NavigationStack {
-                _v2
+                details
             }
         } else {
             NavigationView {
-                _v1
-            }
-            NavigationView {
-                _v2
+                details
             }
         }
     }
