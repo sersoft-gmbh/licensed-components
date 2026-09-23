@@ -1,0 +1,517 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "LicensedComponents",
+    "externalID" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "LicenseTexts"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "LicensedComponentsUI",
+        "relatedModules" : [
+          "LicensedComponents"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "LicenseTexts"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "LicensedComponent.LicenseTexts"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "LicenseTexts"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/LicensedComponentsUI\/SQ",
+        "doc:\/\/LicensedComponentsUI\/SH",
+        "doc:\/\/LicensedComponentsUI\/s8SendableP",
+        "doc:\/\/LicensedComponentsUI\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/Resolved",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/Text"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/init(short:full:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/full",
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/short"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://LicensedComponentsUI/SH": {
+  "identifier" : "doc:\/\/LicensedComponentsUI\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://LicensedComponentsUI/SQ": {
+  "identifier" : "doc:\/\/LicensedComponentsUI\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "LicensedComponentsUI",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicensedComponent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "LicenseTexts"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "LicenseTexts"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.LicenseTexts",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts\/equatable-implementations"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts/Resolved": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Resolved"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/Resolved",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Resolved"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.LicenseTexts.Resolved",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts\/resolved"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts/Text": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Text"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/Text",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Text"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "LicensedComponent.LicenseTexts.Text",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts\/text"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts/full": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "full"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+      "text" : "LicensedComponent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
+      "text" : "LicenseTexts"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/full",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "full",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts\/full"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts/init(short:full:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "short"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+      "text" : "LicensedComponent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
+      "text" : "LicenseTexts"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "full"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+      "text" : "LicensedComponent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
+      "text" : "LicenseTexts"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
+      "text" : "Text"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/init(short:full:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(short:full:)",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts\/init(short:full:)"
+},
+"doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponent/LicenseTexts/short": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "short"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
+      "text" : "LicensedComponent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
+      "text" : "LicenseTexts"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
+      "text" : "Text"
+    }
+  ],
+  "identifier" : "doc:\/\/LicensedComponentsUI\/documentation\/LicensedComponentsUI\/LicensedComponent\/LicenseTexts\/short",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "short",
+  "type" : "topic",
+  "url" : "\/documentation\/licensedcomponentsui\/licensedcomponent\/licensetexts\/short"
+},
+"doc://LicensedComponentsUI/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/LicensedComponentsUI\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://LicensedComponentsUI/s8SendableP": {
+  "identifier" : "doc:\/\/LicensedComponentsUI\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}
