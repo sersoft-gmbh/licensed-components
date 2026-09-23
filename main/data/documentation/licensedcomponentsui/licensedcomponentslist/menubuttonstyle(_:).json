@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Sets the style for menu buttons within this view.",
-      "type" : "text"
-    }
-  ],
   "deprecationSummary" : [
     {
       "inlineContent" : [
@@ -287,10 +281,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/menuButtonStyle(_:)": {
   "abstract" : [
-    {
-      "text" : "Sets the style for menu buttons within this view.",
-      "type" : "text"
-    }
+
   ],
   "deprecated" : true,
   "fragments" : [

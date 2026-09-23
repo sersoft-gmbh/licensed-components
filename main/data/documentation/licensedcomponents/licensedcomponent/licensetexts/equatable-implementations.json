@@ -220,10 +220,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/LicenseTexts/!=(_:_:)": {
   "abstract" : [
-    {
-      "text" : "Returns a Boolean value indicating whether two values are not equal.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -255,12 +252,28 @@
       "text" : "("
     },
     {
+      "kind" : "keyword",
+      "text" : "borrowing"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
       "kind" : "typeIdentifier",
       "text" : "Self"
     },
     {
       "kind" : "text",
       "text" : ", "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "borrowing"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",
@@ -306,24 +319,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-      "text" : "LicenseTexts"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

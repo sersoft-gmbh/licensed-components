@@ -1,18 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Adds an action to perform when this view recognizes",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "a long press gesture.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -347,18 +333,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/onLongPressGesture(minimumDuration:pressing:perform:)": {
   "abstract" : [
-    {
-      "text" : "Adds an action to perform when this view recognizes",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "a long press gesture.",
-      "type" : "text"
-    }
+
   ],
   "deprecated" : true,
   "fragments" : [

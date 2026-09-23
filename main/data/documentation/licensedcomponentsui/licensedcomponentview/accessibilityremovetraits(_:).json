@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Removes the given traits from this view.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -88,6 +82,20 @@
         "deprecated" : false,
         "introducedAt" : "14.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -275,10 +283,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/accessibilityRemoveTraits(_:)": {
   "abstract" : [
-    {
-      "text" : "Removes the given traits from this view.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

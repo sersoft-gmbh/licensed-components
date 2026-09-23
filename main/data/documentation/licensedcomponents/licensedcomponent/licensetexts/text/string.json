@@ -396,24 +396,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-      "text" : "LicenseTexts"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
       "text" : "Text"
     },

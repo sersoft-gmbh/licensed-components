@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Specifies whether to hide this view from system accessibility features.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -88,6 +82,20 @@
         "deprecated" : false,
         "introducedAt" : "14.0",
         "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "Mac Catalyst",
         "unavailable" : false
       },
       {
@@ -278,10 +286,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/accessibilityHidden(_:)": {
   "abstract" : [
-    {
-      "text" : "Specifies whether to hide this view from system accessibility features.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

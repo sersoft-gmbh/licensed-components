@@ -387,24 +387,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
-      "text" : "License"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO6ApacheO",
       "text" : "Apache"
     },
@@ -443,24 +425,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
-      "text" : "License"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -522,15 +486,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
       "text" : "LicenseTexts"
     },
@@ -569,24 +524,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
-      "text" : "License"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

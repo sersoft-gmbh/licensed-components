@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Describes the way previews for a drop are composed.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -232,10 +226,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentView/dropPreviewsFormation(_:)": {
   "abstract" : [
-    {
-      "text" : "Describes the way previews for a drop are composed.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

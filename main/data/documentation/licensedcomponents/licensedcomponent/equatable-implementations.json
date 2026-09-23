@@ -101,10 +101,7 @@
 },
 "doc://LicensedComponents/documentation/LicensedComponents/LicensedComponent/!=(_:_:)": {
   "abstract" : [
-    {
-      "text" : "Returns a Boolean value indicating whether two values are not equal.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -136,12 +133,28 @@
       "text" : "("
     },
     {
+      "kind" : "keyword",
+      "text" : "borrowing"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
       "kind" : "typeIdentifier",
       "text" : "Self"
     },
     {
       "kind" : "text",
       "text" : ", "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "borrowing"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
     },
     {
       "kind" : "typeIdentifier",

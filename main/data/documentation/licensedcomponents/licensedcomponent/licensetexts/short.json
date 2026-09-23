@@ -40,24 +40,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-        "text" : "LicensedComponent"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-        "text" : "LicenseTexts"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
         "text" : "Text"
       }
@@ -102,26 +84,6 @@
             {
               "kind" : "text",
               "text" : ": "
-            },
-            {
-              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-              "text" : "LicensedComponent"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-              "text" : "LicenseTexts"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/LicenseTexts\/Text",
@@ -397,24 +359,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-      "text" : "LicenseTexts"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
       "text" : "Text"
     },
@@ -453,24 +397,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-      "text" : "LicenseTexts"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

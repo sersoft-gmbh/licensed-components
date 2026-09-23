@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Describes the way dragged previews are visually composed.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -235,10 +229,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/dragPreviewsFormation(_:)": {
   "abstract" : [
-    {
-      "text" : "Describes the way dragged previews are visually composed.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

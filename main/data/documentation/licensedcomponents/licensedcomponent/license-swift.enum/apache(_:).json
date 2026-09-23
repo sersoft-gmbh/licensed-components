@@ -40,24 +40,6 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-        "text" : "LicensedComponent"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
-        "text" : "License"
-      },
-      {
-        "kind" : "text",
-        "text" : "."
-      },
-      {
-        "kind" : "typeIdentifier",
         "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO6ApacheO",
         "text" : "Apache"
       },
@@ -106,26 +88,6 @@
             {
               "kind" : "text",
               "text" : "("
-            },
-            {
-              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-              "text" : "LicensedComponent"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
-            },
-            {
-              "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
-              "text" : "License"
-            },
-            {
-              "kind" : "text",
-              "text" : "."
             },
             {
               "identifier" : "doc:\/\/LicensedComponents\/documentation\/LicensedComponents\/LicensedComponent\/License-swift.enum\/Apache",
@@ -301,24 +263,6 @@
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
-      "text" : "License"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",

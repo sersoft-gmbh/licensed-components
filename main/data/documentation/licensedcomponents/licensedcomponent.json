@@ -87,6 +87,7 @@
       "identifiers" : [
         "doc:\/\/LicensedComponents\/s8CopyableP",
         "doc:\/\/LicensedComponents\/SQ",
+        "doc:\/\/LicensedComponents\/s9EscapableP",
         "doc:\/\/LicensedComponents\/SH",
         "doc:\/\/LicensedComponents\/s12IdentifiableP",
         "doc:\/\/LicensedComponents\/7SwiftUI15DynamicPropertyP"
@@ -473,24 +474,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
-      "text" : "LicenseTexts"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV4TextV",
       "text" : "Text"
     },
@@ -529,15 +512,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -773,15 +747,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV7LicenseO",
       "text" : "License"
     },
@@ -854,15 +819,6 @@
     {
       "kind" : "text",
       "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
     },
     {
       "kind" : "typeIdentifier",
@@ -944,15 +900,6 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV",
-      "text" : "LicensedComponent"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
       "preciseIdentifier" : "s:18LicensedComponents0A9ComponentV12LicenseTextsV",
       "text" : "LicenseTexts"
     },
@@ -981,6 +928,11 @@
 "doc://LicensedComponents/s8CopyableP": {
   "identifier" : "doc:\/\/LicensedComponents\/s8CopyableP",
   "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://LicensedComponents/s9EscapableP": {
+  "identifier" : "doc:\/\/LicensedComponents\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }

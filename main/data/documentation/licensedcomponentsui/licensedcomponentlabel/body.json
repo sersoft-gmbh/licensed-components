@@ -61,6 +61,20 @@
       {
         "beta" : false,
         "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "iPadOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
         "introducedAt" : "11.0",
         "name" : "macOS",
         "unavailable" : false
@@ -82,7 +96,7 @@
     ],
     "remoteSource" : {
       "fileName" : "LicensedComponentLabel.swift",
-      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/heads\/main\/Sources\/LicensedComponentsUI\/LicensedComponentLabel.swift#L7"
+      "url" : "https:\/\/github.com\/sersoft-gmbh\/licensed-components\/blob\/refs\/heads\/main\/Sources\/LicensedComponentsUI\/LicensedComponentLabel.swift#L8"
     },
     "role" : "symbol",
     "roleHeading" : "Instance Property",

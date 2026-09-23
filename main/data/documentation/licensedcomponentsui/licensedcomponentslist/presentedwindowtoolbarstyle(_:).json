@@ -1,18 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "Sets the style for the toolbar in windows created by",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "interacting with this view.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -282,18 +268,7 @@
 },
 "doc://LicensedComponentsUI/documentation/LicensedComponentsUI/LicensedComponentsList/presentedWindowToolbarStyle(_:)": {
   "abstract" : [
-    {
-      "text" : "Sets the style for the toolbar in windows created by",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "interacting with this view.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
