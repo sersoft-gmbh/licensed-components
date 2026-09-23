@@ -1,5 +1,6 @@
 #if !os(macOS)
 import SwiftUI
+import LicensedComponents
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 struct ComponentInlineDetails: View {
@@ -36,14 +37,32 @@ fileprivate extension View {
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
 struct ComponentInlineDetails_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
+    private static var details: some View {
+        List {
             ComponentInlineDetails(component: LicensedComponent(
                 name: "Test Component",
                 license: .mit,
                 copyrightYears: "2020-2021",
                 copyrightHolders: "This guy"
             ))
+            ComponentInlineDetails(component: LicensedComponent(
+                name: "Test Component 2",
+                license: .gpl(.v3),
+                copyrightYears: "2022-2025",
+                copyrightHolders: "This other guy"
+            ))
+        }
+    }
+
+    static var previews: some View {
+        if #available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *) {
+            NavigationStack {
+                details
+            }
+        } else {
+            NavigationView {
+                details
+            }
         }
     }
 }

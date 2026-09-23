@@ -1,4 +1,5 @@
 public import SwiftUI
+public import LicensedComponents
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 6, *)
 public struct LicensedComponentLabel: View {
@@ -30,5 +31,8 @@ struct LicensedComponentLabel_Previews: PreviewProvider {
             copyrightYears: "2020-2021",
             copyrightHolders: "This guy"
         ))
+#if os(macOS)
+        .padding()
+#endif
     }
 }

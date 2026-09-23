@@ -15,13 +15,12 @@ public struct LicensedComponentsList: View {
     public var body: some View {
         List {
             ForEach(components) { component in
-// if compiler(>=6.0) currently needed to work around a Swift 6.0 bug
-#if compiler(>=6.0) && (os(macOS) || os(watchOS))
+#if os(macOS) || os(watchOS)
                 NavigationLink(
                     destination: LicensedComponentView(component: component),
                     label: { LicensedComponentLabel(component: component) }
                 )
-#elseif compiler(>=6.0) // currently needed to work around a Swift 6.0 bug
+#else
                 HStack {
                     LicensedComponentLabel(component: component)
                     Spacer()
@@ -84,7 +83,7 @@ fileprivate extension Color {
             return Color(.labelColor)
         }
 #elseif os(watchOS)
-            return primary
+        return primary
 #else
         if #available(iOS 15, tvOS 15, *) {
             return Color(uiColor: .label)
@@ -97,39 +96,49 @@ fileprivate extension Color {
 
 @available(macOS 11, iOS 13, tvOS 13, watchOS 7, *)
 struct LicensedComponentsList_Previews: PreviewProvider {
+    static var _list: some View {
+        LicensedComponentsList(components: [
+            LicensedComponent(
+                name: "Test Component",
+                license: .custom(
+                    title: "Test License",
+                    .init(
+                        short: .init(String(repeating: "Only short\n",
+                                            count: 12),
+                                     hasPlaceholders: false)
+                    )
+                ),
+                copyrightYears: "2020-2021",
+                copyrightHolders: "This guy"
+            ),
+            LicensedComponent(
+                name: "Something else",
+                license: .custom(
+                    title: "Test License",
+                    .init(
+                        short: .init(String(repeating: "Also long short\n",
+                                            count: 12),
+                                     hasPlaceholders: false),
+                        full: .init(String(repeating: "A very long license text\n",
+                                           count: 40),
+                                    hasPlaceholders: false)
+                    )
+                ),
+                copyrightYears: "2020",
+                copyrightHolders: "Another guy"
+            ),
+        ])
+    }
+
     static var previews: some View {
-        NavigationView {
-            LicensedComponentsList(components: [
-                LicensedComponent(
-                    name: "Test Component",
-                    license: .custom(
-                        title: "Test License",
-                        .init(
-                            short: .init(String(repeating: "Only short\n",
-                                                count: 12),
-                                         hasPlaceholders: false)
-                        )
-                    ),
-                    copyrightYears: "2020-2021",
-                    copyrightHolders: "This guy"
-                ),
-                LicensedComponent(
-                    name: "Something else",
-                    license: .custom(
-                        title: "Test License",
-                        .init(
-                            short: .init(String(repeating: "Also long short\n",
-                                                count: 12),
-                                         hasPlaceholders: false),
-                            full: .init(String(repeating: "A very long license text\n",
-                                               count: 40),
-                                        hasPlaceholders: false)
-                        )
-                    ),
-                    copyrightYears: "2020",
-                    copyrightHolders: "Another guy"
-                ),
-            ])
+        if #available(iOS 16.0, macOS 13.0, tvOS 16.0, watchOS 9.0, *) {
+            NavigationStack {
+                _list
+            }
+        } else {
+            NavigationView {
+                _list
+            }
         }
     }
 }
